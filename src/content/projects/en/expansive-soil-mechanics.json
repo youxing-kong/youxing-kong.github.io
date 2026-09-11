@@ -1,0 +1,43 @@
+{
+  "title": "Multiscale Mechanisms of Fissured Expansive-Soil Failure",
+  "subtitle": "Connecting cracks, material behavior and slope instability",
+  "question": "How do cracks alter the mechanical behavior and failure mechanisms of expansive soils and slopes?",
+  "context": "Fissured expansive soils and slopes investigated through laboratory, model-scale and field observations. The CV records this research during 2020–2024, with continuing research directions.",
+  "approach": [
+    "Geotechnical experiments and fracture mechanics",
+    "DIC and electrical resistance monitoring",
+    "Microstructural characterization",
+    "Slope model testing",
+    "Field investigation"
+  ],
+  "progress": "Published work addresses fissure extension through fracture-mechanics tests and slope deformation under loading and irrigation. A study on sliding-surface microstructure is listed separately as a preprint in the CV.",
+  "direction": "This research forms the Mechanics foundation of my current Scientific AI research. AI predictions should ultimately correspond to real material behavior, physical processes and failure mechanisms.",
+  "next": "Connect physical-mechanism understanding with scientific learning of geosystem evolution and failure.",
+  "outputs": "Published papers and a preprint are linked below, preserving the status recorded in the CV.",
+  "lang": "en",
+  "slug": "expansive-soil-mechanics",
+  "order": 4,
+  "shortTitle": "Expansive Soil Mechanics",
+  "program": 3,
+  "status": "Published & Continuing",
+  "hero": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "methodFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "resultFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "links": {
+    "paper": "",
+    "code": "",
+    "data": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Multimodal AI for Geological-Hazard Investigation",
+  "subtitle": "Structured geological information from field observations",
+  "question": "Can multimodal AI extract structured geological information and support preliminary hazard interpretation from real-world field observations?",
+  "context": "Field photographs and geological observations from engineering and geohazard investigation scenarios.",
+  "approach": [
+    "Field imagery",
+    "Multimodal AI",
+    "Structured information extraction",
+    "Evaluation",
+    "Hazard interpretation"
+  ],
+  "progress": "Ongoing work emphasizes reproducibility, structured outputs, evaluation and domain consistency.",
+  "direction": "Combining field imagery, spatial information, geological context and domain knowledge toward scalable geological investigation.",
+  "next": "Evaluate structured outputs against geological observations and domain-consistent interpretation.",
+  "outputs": "Research assets may include code, prompts, evaluation scripts, labels and model outputs. Public releases are forthcoming.",
+  "lang": "en",
+  "slug": "multimodal-geohazards",
+  "order": 2,
+  "shortTitle": "Multimodal AI",
+  "program": 2,
+  "status": "Ongoing Research",
+  "hero": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "methodFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "resultFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "links": {
+    "paper": "",
+    "code": "",
+    "data": ""
+  }
+}

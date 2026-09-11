@@ -1,0 +1,4 @@
+---
+const {c}=Astro.props;
+---
+<p class="section-intro">{c.approachIntro}</p><div class="approach-grid">{c.approach.map((item:any)=><article><h3>{item.title}</h3><h4>{item.subtitle}</h4><p>{item.description}</p><p class="keywords">{item.keywords.join(' · ')}</p></article>)}</div><p class="approach-equation">Field <span>×</span> Mechanics <span>×</span> AI</p>

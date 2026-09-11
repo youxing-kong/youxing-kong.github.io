@@ -1,0 +1,229 @@
+{
+  "name": "Youxing Kong",
+  "identity": "Scientific AI for Geotechnical & Geohazard Systems",
+  "role": "PhD Researcher in Geological Engineering",
+  "location": "Beijing, China",
+  "email": "kongyouxing@126.com",
+  "summary": "My research focuses on scientific AI for complex geotechnical and geohazard systems: learning system states from sparse, heterogeneous and multiscale observations, integrating physical principles and domain knowledge to understand evolution, and investigating failure forecasting, uncertainty analysis and trustworthy engineering decisions.",
+  "spine": "Observe → Understand → Predict → Decide",
+  "approach": "Field × Mechanics × AI",
+  "sections": [
+    {
+      "id": "education",
+      "title": "Education",
+      "entries": [
+        {
+          "date": "2025.09 – present",
+          "title": "PhD Researcher in Geological Engineering",
+          "paragraphs": [
+            "Institute of Geology and Geophysics, Chinese Academy of Sciences / University of Chinese Academy of Sciences.",
+            "Research focuses on scientific AI for complex geotechnical and geohazard systems, including spatiotemporal learning, physics- and knowledge-guided modeling, long-term deformation forecasting and failure forecasting."
+          ]
+        },
+        {
+          "date": "2021 – 2024",
+          "title": "Master of Engineering in Geological Engineering",
+          "paragraphs": [
+            "Institute of Geology and Geophysics, Chinese Academy of Sciences / University of Chinese Academy of Sciences.",
+            "GPA 3.66. Thesis: Mechanisms of Landslide Hazards in Fissured Expansive Soils.",
+            "Investigated fissure propagation and landslide instability through fracture-mechanics experiments, DIC and resistivity monitoring, microstructural characterization, slope model tests and field-based mechanism analysis."
+          ]
+        },
+        {
+          "date": "2017 – 2021",
+          "title": "Bachelor of Engineering in Civil Engineering",
+          "paragraphs": [
+            "China University of Geosciences (Beijing).",
+            "GPA 3.68. Ranked 2 of 78 students (top 3%)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Professional Experience",
+      "entries": [
+        {
+          "date": "2024.07 – present",
+          "title": "Research and Engineering",
+          "paragraphs": [
+            "Urban Safety Research Institute, Beijing Urban Construction Exploration & Surveying Design Research Institute Co., Ltd.",
+            "Work on urban infrastructure safety monitoring, intelligent inspection and research, including mobile scanning and surface-defect inspection of metro tunnels, building structural monitoring and municipal pipeline surveys.",
+            "Apply image recognition, generative image processing and time-series forecasting to engineering monitoring data, and contribute to research papers, technical reports and AI-related project proposals."
+          ]
+        },
+        {
+          "date": "2023.10 – present",
+          "title": "Co-founder, Kulianggong Studio",
+          "paragraphs": [
+            "Co-founded and operate an AI-driven research and knowledge studio, exploring generative AI for research support, information synthesis, data analysis, scientific communication and knowledge management.",
+            "Design workflows from task analysis and AI workflow development to delivery, exploring lightweight, AI-assisted knowledge services and professional practices."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-experience",
+      "title": "Research Experience",
+      "entries": [
+        {
+          "date": "2020 – 2024",
+          "title": "Multiscale Deformation, Failure and Landslide Instability in Fissured Expansive Soils",
+          "paragraphs": [
+            "Investigated how fissures affect the strength, deformation and landslide instability of expansive soils. Combined fracture-mechanics experiments, DIC/resistivity monitoring, microstructural characterization and slope model testing to explain fissure propagation and instability across scales."
+          ]
+        },
+        {
+          "date": "2024 – 2025",
+          "title": "Tunnel Surface-Defect Recognition from Engineering Monitoring Data",
+          "paragraphs": [
+            "Worked on deep-learning recognition, generative image completion and time-series forecasting using tunnel surface-defect and large-structure monitoring data, exploring state extraction, anomaly recognition and evolution forecasting."
+          ]
+        },
+        {
+          "date": "2025 – present",
+          "title": "Spatiotemporal Slope Deformation Learning and Long-term Forecasting from Sparse Observations",
+          "paragraphs": [
+            "With STAC-GNSS as a core project, study how sparse GNSS networks can support learning of continuous slope deformation fields and evolution over multiple timescales, with further work on multisource fusion, spatial generalization and long-term forecasting."
+          ]
+        },
+        {
+          "date": "2026 – present",
+          "title": "Physics- and Knowledge-guided Scientific AI for Complex Geosystems",
+          "paragraphs": [
+            "Explore the integration of data, physics and knowledge for geosystem evolution and failure, extending data-driven learning toward physical constraints, multifidelity methods, uncertainty quantification and knowledge-augmented reasoning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field-practice",
+      "title": "Engineering and Field Practice",
+      "entries": [
+        {
+          "date": "2020.07 – 2020.09",
+          "title": "Atmospheric Deposition Monitoring and Analysis",
+          "paragraphs": [
+            "Shandong Institute of Geophysical and Geochemical Exploration. Participated in field monitoring, sample collection and analysis of atmospheric deposition, gaining experience in environmental geochemical surveys, sample quality control and environmental data acquisition."
+          ]
+        },
+        {
+          "date": "2021.09 – 2021.12",
+          "title": "MICP Ecological Slope Stabilization Demonstration, Chuxiong, Yunnan",
+          "paragraphs": [
+            "Participated in a demonstration using phosphogypsum resource recovery and microbially induced carbonate precipitation (MICP) for ecological slope stabilization, including microbial cultivation, material mixing, mechanical hydroseeding, planting and site construction."
+          ]
+        },
+        {
+          "date": "2021 – 2024",
+          "title": "Roadside Geohazard Investigation and Assessment, Second Tibetan Plateau Scientific Expedition",
+          "paragraphs": [
+            "Combined remote-sensing interpretation with field surveys of landslides, rockfalls and debris flows along more than 2,000 km of roads. Identified 232 hazard sites and contributed to regional risk zoning."
+          ]
+        },
+        {
+          "date": "2023.03 – 2023.06",
+          "title": "Coal Gangue as Roadbed Fill, Yelu Expressway, Henan",
+          "paragraphs": [
+            "Conducted compaction, vibratory compaction and California bearing ratio (CBR) tests on coal gangue with different particle sizes and gradations, and evaluated its suitability as roadbed fill using a trial section."
+          ]
+        },
+        {
+          "date": "2024.08",
+          "title": "Unloading Monitoring of the Large Steel Dome at Zhangjiawan Depot",
+          "paragraphs": [
+            "Participated in strain-sensor deployment on key members, continuous stress and temperature monitoring, and data analysis to support safety control during staged unloading."
+          ]
+        },
+        {
+          "date": "2024.10 – 2025.08",
+          "title": "Mobile Scanning and Surface-Defect Monitoring of Urban Rail Tunnels",
+          "paragraphs": [
+            "Participated in mobile laser scanning, seepage and surface-defect inspection, and point-cloud/grayscale-image processing. Analyzed cross-sections, convergence, segment dislocation and clearance infringement."
+          ]
+        },
+        {
+          "date": "2025.04",
+          "title": "Fire-door Inspection and Surveying in Metro Cross-passages",
+          "paragraphs": [
+            "Participated in on-site fire-door inspection, engineering surveying and condition-data collection during operational maintenance windows and night shifts, gaining experience in inspection and field coordination in complex underground spaces."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "title": "Selected Awards",
+      "entries": [
+        {
+          "date": "2025",
+          "title": "Outstanding Paper Award",
+          "paragraphs": [
+            "10th Conference on Rail Transit Surveying and Exploration Technology."
+          ]
+        },
+        {
+          "date": "",
+          "title": "Scholarships",
+          "paragraphs": [
+            "National Scholarship; first-class academic scholarships on seven occasions."
+          ]
+        },
+        {
+          "date": "",
+          "title": "Mathematical Modeling Competitions",
+          "paragraphs": [
+            "Second prize in the China Undergraduate Mathematical Contest in Modeling; Honorable Mention in the Mathematical Contest in Modeling (MCM)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "title": "Research Methods and Tools",
+      "entries": [
+        {
+          "date": "",
+          "title": "AI and Computing",
+          "paragraphs": [
+            "Python, C++, MATLAB; graph neural networks, spatiotemporal learning, deep learning and computer vision, LLM/KG-RAG, physically constrained and probabilistic modeling."
+          ]
+        },
+        {
+          "date": "",
+          "title": "Geotechnical Experiments and Mechanisms",
+          "paragraphs": [
+            "Basic soil and rock tests, direct shear and dynamic triaxial tests, slope model testing; XRD, SEM/EDX, MIP, BET, DIC, resistivity monitoring and molecular simulation."
+          ]
+        },
+        {
+          "date": "",
+          "title": "Field and Engineering",
+          "paragraphs": [
+            "Geohazard field investigation; tunnel laser scanning and point-cloud/image processing; structural health monitoring; ArcGIS, CAD, GeoStudio/ANSYS."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Science Communication and Languages",
+      "entries": [
+        {
+          "date": "",
+          "title": "Science Communication",
+          "paragraphs": [
+            "Wrote 20 engineering-related popular-science articles for official Chinese Academy of Sciences platforms, with more than 100,000 total reads."
+          ]
+        },
+        {
+          "date": "",
+          "title": "Languages",
+          "paragraphs": [
+            "Chinese: native. English: able to conduct academic reading, writing and communication."
+          ]
+        }
+      ]
+    }
+  ]
+}

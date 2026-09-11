@@ -1,0 +1,8 @@
+---
+import {route,type Lang} from '../data/site';
+const {lang,path=''} = Astro.props as {lang:Lang,path?:string};
+---
+<div class="languages" role="group" aria-label={lang==='zh'?'切换语言':'Choose language'}><a href={route('en',path)} lang="en" hreflang="en" data-language="en" aria-current={lang==='en'?'page':undefined}>EN</a><span aria-hidden="true">/</span><a href={route('zh',path)} lang="zh-CN" hreflang="zh-CN" data-language="zh" aria-current={lang==='zh'?'page':undefined}>中文</a></div>
+<script>
+document.querySelectorAll<HTMLAnchorElement>('[data-language]').forEach(link=>link.addEventListener('click',()=>{try{localStorage.setItem('portfolio-language',link.dataset.language!)}catch{}}));
+</script>

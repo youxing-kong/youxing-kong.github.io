@@ -1,0 +1,43 @@
+{
+  "title": "真实地铁隧道检测数据的人工智能分析",
+  "subtitle": "从工程检测中学习基础设施状态",
+  "question": "人工智能如何从复杂、噪声显著且存在遮挡的隧道检测数据中可靠提取基础设施状态信息？",
+  "context": "工程场景包括移动激光扫描、隧道灰度影像、渗漏水检查、结构表面病害、点云及隧道几何。",
+  "approach": [
+    "图像增强",
+    "基于 YOLO 的病害识别",
+    "生成式图像补全",
+    "点云与图像处理",
+    "结构参数提取"
+  ],
+  "progress": "CV 列有隧道断面扫描灰度图像渗水病害识别研究，以及移动激光扫描和结构参数分析等工程经历。",
+  "direction": "这项工作连接真实工程监测与数据驱动的人工智能研究。",
+  "next": "持续探索从复杂工程观测中可靠提取基础设施状态信息的方法。",
+  "outputs": "相关论文已在 CV 中列出，尚未提供公开 DOI、代码或数据集链接。",
+  "lang": "zh",
+  "slug": "tunnel-inspection",
+  "order": 5,
+  "shortTitle": "Tunnel Inspection",
+  "program": 1,
+  "status": "已发表并持续研究",
+  "hero": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "methodFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "resultFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "links": {
+    "paper": "",
+    "code": "",
+    "data": ""
+  }
+}

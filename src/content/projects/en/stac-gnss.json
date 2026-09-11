@@ -1,0 +1,44 @@
+{
+  "title": "STAC-GNSS",
+  "subtitle": "Spatiotemporal Learning of Open-Pit Slope Deformation from Sparse GNSS Networks",
+  "question": "How can sparse GNSS observations be used to reconstruct and forecast the continuous spatiotemporal deformation of a large slope system?",
+  "context": "The project investigates long-term three-dimensional GNSS displacement observations distributed across multiple zones of a large open-pit slope. The focus is the relationship between discrete monitoring points and continuous slope deformation.",
+  "approach": [
+    "Sparse GNSS observations",
+    "Adaptive spatial graph",
+    "Spatiotemporal representation learning",
+    "Deformation-field reconstruction",
+    "Multi-horizon forecasting"
+  ],
+  "progress": "Current focus includes adaptive graph learning, spatial relationships, continuous deformation fields, multi-horizon forecasting, spatial holdout and cross-zone generalization.",
+  "direction": "The broader objective is not simply to predict displacement at individual sensors, but to investigate whether sparse monitoring networks contain sufficient information for AI to learn the evolving state of a continuous geosystem.",
+  "next": "GNSS + InSAR + terrain + environmental observations → multimodal representation → spatial generalization → physics-constrained dynamics.",
+  "update": "The 26 August 2026 progress report describes a TRCQ-GNSS framework: asynchronous history encoding, propagation on a fixed terrain graph and continuous spatial queries. It reports 7/30/90-day three-dimensional forecasting with strict time splits and hidden-station evaluation. This is recorded here as a dated research update; the STAC-GNSS project identity is retained. The reported application is stable to slowly deforming conditions within the same mine. Sudden acceleration and cross-mine transfer require further validation.",
+  "outputs": "Research framework and ongoing evaluation. Public paper, code and data are forthcoming.",
+  "lang": "en",
+  "slug": "stac-gnss",
+  "order": 1,
+  "shortTitle": "STAC-GNSS",
+  "program": 1,
+  "status": "Ongoing Research",
+  "hero": {
+    "src": "/images/projects/stac-gnss/hero.png",
+    "alt": "TRCQ-GNSS terrain graph and adjacency matrix from the supplied research report",
+    "caption": "TRCQ-GNSS: fixed source graph, terrain topology and adjacency structure. Source: research progress report, 26 August 2026, slide 64."
+  },
+  "methodFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "resultFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "links": {
+    "paper": "",
+    "code": "",
+    "data": ""
+  }
+}

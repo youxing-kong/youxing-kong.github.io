@@ -1,0 +1,4 @@
+---
+const {c}=Astro.props;
+---
+<div class="research-spine">{c.spine.map((item:any,i:number)=><article><div class="spine-top"><span class="eyebrow">0{i+1}</span><span class="spine-arrow" aria-hidden="true">→</span></div><h3>{item.title}</h3><p class="spine-subtitle">{item.subtitle}</p><p>{item.description}</p><p class="keywords">{item.keywords.join(' · ')}</p></article>)}</div>

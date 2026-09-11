@@ -1,0 +1,4 @@
+---
+const {number,title,href,linkLabel}=Astro.props;
+---
+<div class="section-heading"><h2><span class="section-number" aria-hidden="true">{number}</span>{title}</h2>{href&&<a href={href}>{linkLabel} <span aria-hidden="true">↗</span></a>}</div>

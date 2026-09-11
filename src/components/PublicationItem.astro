@@ -1,0 +1,6 @@
+---
+import {route,type Lang} from '../data/site';
+const {p,lang}=Astro.props as {p:any,lang:Lang};
+const authors=p.authors.split(/(Kong, Y\.|Youxing Kong|孔佑兴)/g);
+---
+<article class="publication" id={p.id}><div class="pub-year">{p.year}</div><div><h3>{p.doi?<a href={`https://doi.org/${p.doi}`}>{p.title}</a>:p.title}</h3><p class="authors">{authors.map((part:string)=>/^(Kong, Y\.|Youxing Kong|孔佑兴)$/.test(part)?<strong>{part}</strong>:part)}</p><p class="venue">{p.venue}{p.status==='preprint'&&<span class="status"> · {lang==='zh'?'预印本':'Preprint'}</span>}</p><div class="pub-links">{p.doi&&<a href={`https://doi.org/${p.doi}`}>DOI: {p.doi} ↗</a>}{p.project&&<a href={route(lang,`projects/${p.project}`)}>{lang==='zh'?'相关项目':'Project'} →</a>}{p.code&&<a href={p.code}>Code ↗</a>}</div></div></article>

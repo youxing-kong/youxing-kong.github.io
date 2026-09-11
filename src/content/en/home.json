@@ -1,0 +1,156 @@
+{
+  "title": "Youxing Kong | Scientific AI for Geotechnical & Geohazard Systems",
+  "description": "Youxing Kong is a PhD researcher working on scientific AI, geotechnical systems, geohazards, spatiotemporal learning and failure forecasting.",
+  "heroLines": [
+    "Scientific AI for",
+    "Geotechnical &",
+    "Geohazard Systems"
+  ],
+  "summary": "Understanding and forecasting evolving geosystems from sparse observations through data, physics and domain knowledge.",
+  "role": "PhD Researcher in Geological Engineering",
+  "location": "Beijing, China",
+  "question": "How can we understand and forecast the evolution and failure of complex geosystems from sparse, heterogeneous and multiscale observations?",
+  "spine": [
+    {
+      "title": "Observe",
+      "subtitle": "Observation & Representation",
+      "description": "Learning system states from sparse, heterogeneous and multiscale observations.",
+      "keywords": [
+        "Sparse sensing",
+        "Multisource observations",
+        "Multimodal learning",
+        "Spatiotemporal representation",
+        "Field reconstruction",
+        "Multiscale data"
+      ]
+    },
+    {
+      "title": "Understand",
+      "subtitle": "Dynamics & Scientific Learning",
+      "description": "Learning geosystem dynamics by integrating data, physical principles and domain knowledge.",
+      "keywords": [
+        "Scientific ML",
+        "Graph learning",
+        "Physics-informed AI",
+        "Multifidelity learning",
+        "Knowledge-guided AI",
+        "Scientific reasoning"
+      ]
+    },
+    {
+      "title": "Predict",
+      "subtitle": "Forecasting & Failure",
+      "description": "Forecasting long-term evolution and identifying transitions from progressive deformation to failure.",
+      "keywords": [
+        "Long-term forecasting",
+        "Failure precursors",
+        "State transitions",
+        "Failure forecasting",
+        "Rare-event learning"
+      ]
+    },
+    {
+      "title": "Decide",
+      "subtitle": "Uncertainty & Decision",
+      "description": "Translating predictions into uncertainty-aware risk assessment, early warning and engineering decisions.",
+      "keywords": [
+        "Uncertainty quantification",
+        "Probabilistic prediction",
+        "Risk assessment",
+        "Early warning",
+        "Adaptive monitoring",
+        "Decision support"
+      ]
+    }
+  ],
+  "approachIntro": "Bridging real-world engineering, physical understanding and scientific AI.",
+  "approach": [
+    {
+      "title": "Field",
+      "subtitle": "Real-world Engineering & Monitoring",
+      "description": "My research is grounded in real engineering systems and field observations, including geological-hazard investigation, slope engineering, structural monitoring, tunnel inspection and urban infrastructure safety.",
+      "keywords": [
+        "Field investigation",
+        "Long-term monitoring",
+        "Infrastructure",
+        "Real-world data"
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "subtitle": "Experiments & Physical Understanding",
+      "description": "My geotechnical background includes laboratory experiments, fracture mechanics, slope model testing, microstructural characterization and multiscale investigation of geomaterials.",
+      "keywords": [
+        "Geotechnical experiments",
+        "Material behavior",
+        "Failure mechanisms",
+        "Multiscale characterization"
+      ]
+    },
+    {
+      "title": "AI",
+      "subtitle": "Scientific AI & Computational Learning",
+      "description": "I develop and apply modern machine-learning methods to extract scientific information from complex engineering and geoscientific data.",
+      "keywords": [
+        "Scientific ML",
+        "Spatiotemporal learning",
+        "Graph learning",
+        "Physics-informed AI",
+        "Knowledge-guided AI",
+        "Uncertainty"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "title": "Learning Geosystems from Sparse Observations",
+      "subtitle": "Sparse Observations → Continuous System States",
+      "summary": "Developing spatiotemporal learning approaches to reconstruct and forecast evolving geosystems from sparse monitoring networks.",
+      "status": "Ongoing Research",
+      "keywords": [
+        "Sparse sensing",
+        "GNSS",
+        "Graph learning",
+        "Spatiotemporal learning",
+        "Field reconstruction"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Learning Geosystem Dynamics with Data, Physics & Knowledge",
+      "subtitle": "Data + Physics + Knowledge → System Dynamics",
+      "summary": "Integrating observations, physical principles and domain knowledge to move beyond purely data-driven prediction toward scientific learning of geosystem dynamics.",
+      "status": "Developing Research Program",
+      "keywords": [
+        "Scientific ML",
+        "Physics-informed AI",
+        "Multifidelity",
+        "Knowledge-guided AI",
+        "Scientific reasoning"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "From Progressive Deformation to Failure",
+      "subtitle": "Deformation → State Transition → Failure",
+      "summary": "Investigating whether AI can learn precursors, state transitions and uncertainty associated with the progressive evolution of geotechnical and geohazard systems toward failure.",
+      "status": "Long-term Research Direction",
+      "keywords": [
+        "Long-term forecasting",
+        "Failure precursors",
+        "State transitions",
+        "Uncertainty",
+        "Early warning"
+      ]
+    }
+  ],
+  "about": [
+    "I am a PhD researcher in Geological Engineering based in Beijing, working at the intersection of geotechnical engineering, geohazard science and artificial intelligence.",
+    "My background combines geotechnical experiments and physical-mechanism studies with field and engineering experience in geological-hazard investigation, slope engineering, structural monitoring and urban infrastructure inspection.",
+    "My current research focuses on scientific AI for complex geotechnical and geohazard systems, particularly how sparse and heterogeneous observations can be used to understand system dynamics, forecast long-term evolution and failure, and support trustworthy engineering decisions.",
+    "I am especially interested in connecting real-world observations, physical understanding and modern machine learning."
+  ],
+  "contact": "I am interested in discussions and potential collaborations around scientific AI, geotechnical systems, geohazards and long-term monitoring.",
+  "integration": "Observations describe system states. Physical principles constrain plausible behavior. Domain knowledge connects material properties, environmental triggers and failure mechanisms. My developing research program asks how these sources of evidence can jointly support scientific learning of geosystem dynamics."
+}

@@ -1,0 +1,4 @@
+---
+import {profile} from '../data/profile';
+---
+{Object.entries(profile.links).filter(([,url])=>url).map(([name,url])=><a href={url} rel="me">{name}</a>)}

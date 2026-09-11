@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {route} from '../data/site';
+---
+<BaseLayout lang="en" path="404" title="Page not found | Youxing Kong" description="The requested page could not be found."><section class="page-heading"><p class="eyebrow">404</p><h1>Page not found</h1><p>找不到此页面。</p><div class="inline-links"><a href={route('en')}>English home →</a><a href={route('zh')}>中文首页 →</a></div></section></BaseLayout>

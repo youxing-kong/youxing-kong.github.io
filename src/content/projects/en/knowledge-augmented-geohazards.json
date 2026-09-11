@@ -1,0 +1,44 @@
+{
+  "title": "Ontology-Guided KG-RAG for Geoscientific Knowledge and Reasoning",
+  "subtitle": "Connecting scientific literature, structured knowledge and reasoning",
+  "question": "Can structured domain knowledge improve the reliability and scientific usefulness of AI reasoning in geohazard research?",
+  "context": "Scientific literature on geomaterials, swelling and shrinkage, environmental triggers, hydrological response, crack evolution, hydro-mechanical instability, monitoring, prediction, mitigation and risk management.",
+  "approach": [
+    "Scientific literature",
+    "Domain ontology",
+    "Knowledge graph",
+    "Retrieval",
+    "LLM reasoning"
+  ],
+  "progress": "Ongoing research organizes domain knowledge and source evidence to support retrieval and scientific reasoning.",
+  "direction": "Can Scientific AI jointly reason over data, physics and knowledge?",
+  "next": "Improve evidence traceability and the alignment of generated conclusions with retrieved scientific sources.",
+  "update": "The 26 August 2026 report describes an ontology-guided knowledge framework built from 536 full-text papers, evaluated using 170 domain questions and an expansive-soil landslide case. These are progress-report materials, not a claim of publication.",
+  "outputs": "Ontology, knowledge organization and evaluation are ongoing. Public paper, code and data are forthcoming.",
+  "lang": "en",
+  "slug": "knowledge-augmented-geohazards",
+  "order": 3,
+  "shortTitle": "Ontology-guided KG-RAG",
+  "program": 2,
+  "status": "Ongoing Research",
+  "hero": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "methodFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "resultFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "links": {
+    "paper": "",
+    "code": "",
+    "data": ""
+  }
+}

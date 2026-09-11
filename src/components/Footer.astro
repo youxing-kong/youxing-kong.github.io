@@ -1,0 +1,6 @@
+---
+import {text,type Lang} from '../data/site';
+const {lang}=Astro.props as {lang:Lang};
+const now=new Date();
+---
+<footer class="wrap site-footer"><div>© {now.getFullYear()} {text(lang,'Youxing Kong','孔佑兴')}<span>{text(lang,'Beijing, China','北京，中国')}</span></div><p>{text(lang,'Last updated','更新于')} <time datetime={now.toISOString().slice(0,10)}>{now.toISOString().slice(0,10)}</time></p></footer>

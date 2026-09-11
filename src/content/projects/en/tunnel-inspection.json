@@ -1,0 +1,43 @@
+{
+  "title": "Intelligent Analysis of Real-World Tunnel Inspection Data",
+  "subtitle": "Learning infrastructure condition from engineering inspection",
+  "question": "How can AI extract reliable infrastructure-condition information from complex, noisy and partially occluded tunnel inspection data?",
+  "context": "Mobile laser scanning, grayscale tunnel imagery, seepage inspection, structural surface defects, point clouds and tunnel geometry.",
+  "approach": [
+    "Image enhancement",
+    "YOLO-based defect detection",
+    "Generative image completion",
+    "Point-cloud and image processing",
+    "Structural parameter extraction"
+  ],
+  "progress": "The CV lists research on seepage-defect recognition from grayscale tunnel cross-section scanning images, alongside engineering experience in mobile laser scanning and structural-parameter analysis.",
+  "direction": "This work represents the transition between real-world engineering monitoring and data-driven AI research.",
+  "next": "Continue developing reliable condition-information extraction from complex engineering observations.",
+  "outputs": "The related paper is listed in the CV. No public DOI, code or dataset link was supplied.",
+  "lang": "en",
+  "slug": "tunnel-inspection",
+  "order": 5,
+  "shortTitle": "Tunnel Inspection",
+  "program": 1,
+  "status": "Published & Continuing",
+  "hero": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "methodFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "resultFigure": {
+    "src": "",
+    "alt": "",
+    "caption": ""
+  },
+  "links": {
+    "paper": "",
+    "code": "",
+    "data": ""
+  }
+}

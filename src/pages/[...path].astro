@@ -1,0 +1,16 @@
+---
+import MainPage from '../components/MainPage.astro';
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import {projects} from '../data/site';
+export function getStaticPaths(){
+ const paths=[];
+ for(const lang of ['en','zh'])for(const page of ['home','research','projects','publications','cv']){
+  if(lang==='en'&&page==='home')continue;
+  paths.push({params:{path:[lang==='zh'?'zh':'',page==='home'?'':page].filter(Boolean).join('/')},props:{lang,page}});
+ }
+ for(const project of projects)paths.push({params:{path:`${project.lang==='zh'?'zh/':''}projects/${project.slug}`},props:{lang:project.lang,page:'project',project}});
+ return paths;
+}
+const {lang,page,project}=Astro.props;
+---
+{page==='project'?<ProjectLayout lang={lang} p={project}/>:<MainPage lang={lang} page={page}/>}

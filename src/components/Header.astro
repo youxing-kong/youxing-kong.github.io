@@ -1,0 +1,13 @@
+---
+import {route,labels,type Lang} from '../data/site';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import SocialLinks from './SocialLinks.astro';
+const {lang,path=''}=Astro.props as {lang:Lang,path?:string};
+const pages=['','research','projects','publications','cv'];
+---
+<header class="site-header wrap"><a class="brand" href={route(lang)}>Youxing Kong<span>孔佑兴</span></a><button class="menu-toggle" aria-label={lang==='zh'?'展开导航':'Open navigation'} aria-controls="primary-nav" aria-expanded="false">{lang==='zh'?'菜单':'Menu'} <span aria-hidden="true">☰</span></button><div id="primary-nav" class="nav-area"><nav aria-label={lang==='zh'?'主导航':'Main navigation'}>{pages.map((page,i)=><a href={route(lang,page)} aria-current={path.split('/')[0]===page?'page':undefined}>{labels[lang][i]}</a>)}</nav><div class="header-social"><SocialLinks/></div><LanguageSwitcher lang={lang} path={path}/></div></header>
+<script>
+const button=document.querySelector<HTMLButtonElement>('.menu-toggle');
+button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));document.querySelector('.nav-area')?.classList.toggle('is-open',open)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&button?.getAttribute('aria-expanded')==='true'){button.click();button.focus()}});
+</script>
