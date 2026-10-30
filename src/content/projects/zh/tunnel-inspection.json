@@ -1,43 +1,119 @@
 {
-  "title": "真实地铁隧道检测数据的人工智能分析",
-  "subtitle": "从工程检测中学习基础设施状态",
-  "question": "人工智能如何从复杂、噪声显著且存在遮挡的隧道检测数据中可靠提取基础设施状态信息？",
-  "context": "工程场景包括移动激光扫描、隧道灰度影像、渗漏水检查、结构表面病害、点云及隧道几何。",
-  "approach": [
-    "图像增强",
-    "基于 YOLO 的病害识别",
-    "生成式图像补全",
-    "点云与图像处理",
-    "结构参数提取"
-  ],
-  "progress": "CV 列有隧道断面扫描灰度图像渗水病害识别研究，以及移动激光扫描和结构参数分析等工程经历。",
-  "direction": "这项工作连接真实工程监测与数据驱动的人工智能研究。",
-  "next": "持续探索从复杂工程观测中可靠提取基础设施状态信息的方法。",
-  "outputs": "相关论文已在 CV 中列出，尚未提供公开 DOI、代码或数据集链接。",
   "lang": "zh",
   "slug": "tunnel-inspection",
-  "order": 5,
-  "shortTitle": "Tunnel Inspection",
   "program": 1,
-  "status": "已发表并持续研究",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "status": "已发表成果与进行中研究",
+  "tags": [
+    "工程影像",
+    "遮挡修复",
+    "病害识别"
+  ],
+  "theme": "blue",
+  "order": 6,
+  "title": "隧道衬砌遮挡去除与图像增强",
+  "subtitle": "基础设施智能检测",
+  "shortTitle": "隧道衬砌遮挡去除与图像增强",
+  "summary": "隧道衬砌扫描中的管线、设备等遮挡会掩盖表面纹理，影响渗漏水等表观病害的识别。研究利用真实扫描与遮挡物构建配对数据，通过条件反向扩散和局部软融合去除遮挡、补全衬砌纹理，并检验增强图像对下游病害检测的作用。结果展示了不同遮挡条件下的纹理与接缝恢复，以及图像增强带来的渗漏水检测置信度变化。",
+  "question": "隧道衬砌扫描中的管线、设备等遮挡会掩盖表面纹理，影响渗漏水等表观病害的识别。",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "科学问题与方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "隧道衬砌扫描中的管线、设备等遮挡会掩盖表面纹理，影响渗漏水等表观病害的识别。研究利用真实扫描与遮挡物构建配对数据，通过条件反向扩散和局部软融合去除遮挡、补全衬砌纹理，并检验增强图像对下游病害检测的作用。结果展示了不同遮挡条件下的纹理与接缝恢复，以及图像增强带来的渗漏水检测置信度变化。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-1.png",
+            "alt": "真实扫描与遮挡物组成的配对数据",
+            "label": "图1 真实扫描与遮挡物组成的配对数据",
+            "caption": "真实遮挡物与可见衬砌背景组合形成配对样本，使指定覆盖区域保有已知背景参照。",
+            "width": 1067,
+            "height": 1192
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-2.png",
+            "alt": "条件反向扩散与局部软融合",
+            "label": "图2 条件反向扩散与局部软融合",
+            "caption": "编码器和解码器预测噪声，条件反向扩散逐步生成图像；软掩膜融合原图与生成图像，在指定区域补全并保留未遮挡背景。",
+            "width": 5127,
+            "height": 4058
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "结果",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-3.png",
+            "alt": "结构性遮挡去除与图像增强结果",
+            "label": "图3 结构性遮挡去除与图像增强结果",
+            "caption": "完整a至h面板成对展示管线、电缆、人员和电气设备遮挡的输入与输出。结果呈现遮挡去除后接缝、纹理及灰度的衔接。",
+            "width": 976,
+            "height": 1055
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "工程认识",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "图示渗漏水目标在去除遮挡后获得更高的预测置信度，表明图像增强改善了该处病害特征的呈现，可为下游检测提供更清晰的输入。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-4.png",
+            "alt": "图像补全前后的渗漏水检测",
+            "label": "图4 图像补全前后的渗漏水检测",
+            "caption": "左图为遮挡输入，右图为补全输入，绿色框和数字分别表示检测范围与预测置信度。补全后，图示渗漏水目标的预测置信度由0.62提高至0.87，检测框随可见纹理调整。",
+            "width": 1304,
+            "height": 635
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/03-tunnel-inspection.webp",
+    "alt": "隧道衬砌遮挡去除与图像增强",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "基于深度学习的隧道断面扫描灰度图像渗水病害识别研究",
+      "authors": "孔佑兴，唐超，等",
+      "year": 2025,
+      "venue": "第十届轨道交通勘测技术交流大会，2025年3月31日，北京。",
+      "status": "conference-paper",
+      "statusLabel": "会议论文",
+      "url": null,
+      "doi": null
+    },
+    {
+      "title": "Image enhancement for tunnel lining surface defect recognition: A conditional diffusion-based image inpainting approach for structural occlusion removal",
+      "authors": "Kong, Y., Tang, C., Wang, Y., Li, Z., & Xu, Y.",
+      "year": 2026,
+      "venue": "",
+      "status": "under-review",
+      "statusLabel": "审稿中",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

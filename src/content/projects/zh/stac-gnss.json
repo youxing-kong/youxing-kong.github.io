@@ -1,44 +1,109 @@
 {
-  "title": "STAC-GNSS",
-  "subtitle": "稀疏 GNSS 观测下露天矿边坡时空变形场学习",
-  "question": "如何利用有限的 GNSS 监测点，重建并预测大型边坡连续的时空变形状态？",
-  "context": "研究面向大型露天矿边坡长期三维 GNSS 监测数据，重点关注离散监测点与连续边坡变形场之间的关系。",
-  "approach": [
-    "稀疏 GNSS 观测",
-    "自适应空间图",
-    "时空表征学习",
-    "变形场重建",
-    "多时距预测"
-  ],
-  "progress": "当前重点包括自适应图学习、空间关系、连续变形场、多时距预测、空间留出及跨分区泛化。",
-  "direction": "研究目标不仅是预测单个测点位移，而是探索稀疏监测网络是否包含足够的信息，使 AI 能够学习连续地质系统的真实演化状态。",
-  "next": "GNSS + InSAR + 地形 + 环境观测 → 多模态表征 → 空间泛化 → 物理约束动力学。",
-  "update": "2026 年 8 月 26 日进展汇报介绍了 TRCQ-GNSS 框架：异步历史编码、固定地形图传播与连续空间查询，并汇报了严格时间切分与隐藏测点评价下的 7/30/90 天三维预测。此处将其作为有日期的研究进展单独记录，保留 STAC-GNSS 项目名称。汇报中的应用范围为同一矿区稳定至缓慢变形阶段；突发加速与跨矿区应用仍需进一步验证。",
-  "outputs": "研究框架与评估工作持续推进。公开论文、代码和数据待补充。",
   "lang": "zh",
   "slug": "stac-gnss",
-  "order": 1,
-  "shortTitle": "STAC-GNSS",
   "program": 1,
   "status": "进行中研究",
-  "hero": {
-    "src": "/images/projects/stac-gnss/hero.png",
-    "alt": "研究汇报中的 TRCQ-GNSS 地形图与邻接矩阵",
-    "caption": "TRCQ-GNSS 固定源图、三维地形拓扑与邻接结构。来源：2026 年 8 月 26 日进展汇报，第 64 页。"
-  },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
+  "tags": [
+    "边坡监测",
+    "连续场",
+    "时空预测"
+  ],
+  "theme": "slate",
+  "order": 1,
+  "title": "露天矿边坡三维变形预测与监测优化",
+  "subtitle": "边坡监测与预测",
+  "shortTitle": "露天矿边坡三维变形预测与监测优化",
+  "summary": "露天矿边坡监测需要识别变形的空间分布及发展趋势，而分散布设、分期启用的GNSS测点只能提供有限位置的观测。研究融合测点及邻近测点的位移历史与地形信息，建立三维位移时空预测模型，并分别给出中心位移预测和位移幅值上侧预测限，以兼顾预测精度与较大变形区域的识别。结合预测变形场与监测网络的空间覆盖，进一步形成重点保留、区域补充和冗余复核的测点优化方案。",
+  "question": "露天矿边坡监测需要识别变形的空间分布及发展趋势，而分散布设、分期启用的GNSS测点只能提供有限位置的观测。",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "科学问题与方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "露天矿边坡监测需要识别变形的空间分布及发展趋势，而分散布设、分期启用的GNSS测点只能提供有限位置的观测。研究融合测点及邻近测点的位移历史与地形信息，建立三维位移时空预测模型，并分别给出中心位移预测和位移幅值上侧预测限，以兼顾预测精度与较大变形区域的识别。结合预测变形场与监测网络的空间覆盖，进一步形成重点保留、区域补充和冗余复核的测点优化方案。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-1-figure-1.png",
+            "alt": "三维变形预测与连续位置估计",
+            "label": "图1 三维变形预测与连续位置估计",
+            "caption": "测点及邻近测点的位移历史与地形信息共同参与时空预测，测点结果再延伸至连续空间位置。中心位移预测描述主要运动，位移幅值上侧预测限用于筛查较大变形。",
+            "width": 1178,
+            "height": 1437
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "结果",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-1-figure-2.png",
+            "alt": "测点位移幅值预测",
+            "label": "图2 测点位移幅值预测",
+            "caption": "中心位移预测在较大位移样本中出现幅值低估，基于高变形样本残差校准的位移幅值上侧预测限增加了对大幅值运动的覆盖。",
+            "width": 4252,
+            "height": 1678
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-1-figure-3.png",
+            "alt": "区域未来位移增量",
+            "label": "图3 区域未来位移增量",
+            "caption": "未来新增位移集中于局部坡面和台阶，高值区随预测时域变化。中心位移预测与位移幅值上侧预测限分别表达主要运动和较大变形的关注范围。",
+            "width": 4252,
+            "height": 3024
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "工程认识",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "监测点优化结合区域变形与空间覆盖，在保留重点部位和关键连续记录的基础上，补充代表性不足区域的测点，并复核冗余观测的调整方案。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-1-figure-4.png",
+            "alt": "区域覆盖与重点部位共同约束的布点方案",
+            "label": "图4 区域覆盖与重点部位共同约束的布点方案",
+            "caption": "区域代表性、重点变形部位和不同运动分区共同约束监测配置，在保障空间覆盖的基础上确定增设位置并复核冗余观测。",
+            "width": 4876,
+            "height": 4029
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/04-gnss-monitoring.webp",
+    "alt": "露天矿边坡三维变形预测与监测优化",
     "caption": ""
   },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "From sparse, asynchronous GNSS observations to continuous three-dimensional displacement fields: Multi-horizon spatiotemporal prediction for open-pit mine slopes",
+      "authors": "Kong, Y., Li, Z., Li, L., Wang, S., Hu, F., & Hu, R.",
+      "year": 2026,
+      "venue": "",
+      "status": "manuscript-prepared",
+      "statusLabel": "手稿已完成",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

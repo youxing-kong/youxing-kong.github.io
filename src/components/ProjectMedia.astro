@@ -1,0 +1,8 @@
+---
+import {asset,text,type Lang} from '../data/site';
+const {media,lang}=Astro.props as {media:any,lang:Lang};
+---
+{media?.src&&<figure class:list={['research-media',{'is-compact':media.size==='compact'}]}>
+  {media.videoSrc ? <div class="motion-demo"><video class="continuous-demo" controls autoplay muted loop playsinline preload="auto" poster={media.poster?asset(media.poster):undefined} aria-label={media.alt} width="640" height="360"><source src={asset(media.videoSrc)} type="video/mp4"/></video><p class="motion-hint">{text(lang,'Continuous inspection animation · use the player controls to pause or view full screen','连续巡检动画 · 可暂停或全屏观看')}</p></div> : media.kind==='video' ? <video controls playsinline preload="metadata" poster={media.poster?asset(media.poster):undefined} aria-label={media.alt}><source src={asset(media.src)} type={media.mime||'video/mp4'}/>{media.alt}</video> : <button class="figure-zoom" type="button" data-image-src={asset(media.src)} data-image-alt={media.alt} aria-label={text(lang,'Enlarge image: ','放大图片：')+media.alt}><img src={asset(media.src)} alt={media.alt} loading="lazy" width={media.width||undefined} height={media.height||undefined}/></button>}
+  <figcaption>{media.label&&<strong class="figure-label">{media.label}</strong>}{media.caption}{media.sourceUrl&&<> · <a href={media.sourceUrl} target="_blank" rel="noopener noreferrer">{media.sourceLabel||text(lang,'Source','来源')} ↗</a></>}{media.licenseUrl&&<> · <a href={media.licenseUrl}>{text(lang,'License','许可')}</a></>}</figcaption>
+</figure>}

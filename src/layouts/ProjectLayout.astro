@@ -1,17 +1,34 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import PublicationItem from '../components/PublicationItem.astro';
-import en from '../content/en/home.json';
-import zh from '../content/zh/home.json';
-import pubs from '../content/publications/publications.json';
-import {route,asset,text,type Lang} from '../data/site';
+import ImageLightbox from '../components/ImageLightbox.astro';
+import ProjectMedia from '../components/ProjectMedia.astro';
+import {route,text,type Lang} from '../data/site';
 const {lang,p}=Astro.props as {lang:Lang,p:any};
-const c=lang==='zh'?zh:en;
-const program=c.programs.find(q=>q.id===p.program)!;
-const publications=pubs.filter(q=>q.project===p.slug);
 ---
-<BaseLayout lang={lang} path={`projects/${p.slug}`} title={`${p.title} | ${text(lang,'Youxing Kong','孔佑兴')}`} description={p.question}>
-<article class="project-detail"><section class="page-heading"><a class="back-link" href={route(lang,'projects')}>← {text(lang,'All projects','全部项目')}</a><p class="status">{p.status}</p><h1>{p.title}</h1><p class="lead">{p.subtitle}</p><p class="program-label">{text(lang,'Research program','所属研究主线')}<br/><a href={route(lang,'research')+`#program-${p.program}`}>{program.title} ↗</a></p></section>
-<figure class="project-figure">{p.hero.src?<a href={asset(p.hero.src)}><img src={asset(p.hero.src)} alt={p.hero.alt} width="1200" height="570"/></a>:<div class="figure-placeholder large"><span>{p.shortTitle}</span><small>{text(lang,'Research figure forthcoming','研究图件待补充')}</small></div>}{p.hero.caption&&<figcaption>{p.hero.caption}</figcaption>}</figure>
-<div class="project-prose reading"><section><h2>{text(lang,'Research question','研究问题')}</h2><p class="lead">{p.question}</p></section><section><h2>{text(lang,'Context & data','研究背景与数据')}</h2><p>{p.context}</p></section><section><h2>{text(lang,'Approach','研究方法')}</h2><ol class="method-list">{p.approach.map((a:string)=><li>{a}</li>)}</ol></section>{p.methodFigure.src&&<figure><img src={asset(p.methodFigure.src)} alt={p.methodFigure.alt} loading="lazy"/><figcaption>{p.methodFigure.caption}</figcaption></figure>}<section><h2>{text(lang,'Current findings & progress','当前发现与进展')}</h2><p>{p.progress}</p>{p.update&&<aside class="research-update"><p class="eyebrow">{text(lang,'RESEARCH UPDATE · 26 AUGUST 2026','研究进展 · 2026 年 8 月 26 日')}</p><p>{p.update}</p></aside>}</section>{p.resultFigure.src&&<figure><img src={asset(p.resultFigure.src)} alt={p.resultFigure.alt} loading="lazy"/><figcaption>{p.resultFigure.caption}</figcaption></figure>}<section><h2>{text(lang,'Scientific direction','科学方向')}</h2><p>{p.direction}</p><h3>{text(lang,'Next steps','下一步')}</h3><p>{p.next}</p></section><section><h2>{text(lang,'Outputs','研究成果')}</h2><p>{p.outputs}</p><dl class="output-links">{['paper','code','data'].map((key,i)=><div><dt>{lang==='zh'?['论文','代码','数据'][i]:['Paper','Code','Data'][i]}</dt><dd>{p.links[key]?<a href={p.links[key]}>{text(lang,'View','查看')} ↗</a>:key==='paper'&&publications.some(q=>q.doi)?<a href="#related-publications">{text(lang,'See publications below','查看下方论文')} ↓</a>:<span class="muted">{text(lang,'Coming soon','待补充')}</span>}</dd></div>)}</dl></section></div>
-{publications.length>0&&<section class="section" id="related-publications"><h2>{text(lang,'Related publications','相关论文')}</h2>{publications.map(q=><PublicationItem p={q} lang={lang}/>)}</section>}<section class="section"><a href={route(lang,'projects')}>← {text(lang,'Back to all projects','返回全部项目')}</a></section></article></BaseLayout>
+<BaseLayout lang={lang} path={`projects/${p.slug}`} title={`${p.title} | ${text(lang,'Youxing Kong','孔佑兴')}`} description={p.summary}>
+<article class={`project-detail approved-project theme-${p.theme||'slate'}`}>
+  <header class="page-heading project-heading">
+    <a class="back-link" href={route(lang,'projects')}>← {text(lang,'All projects','全部项目')}</a>
+    <p class="eyebrow">{p.subtitle}</p>
+    <h1>{p.title}</h1>
+  </header>
+  <div class="project-body">
+    <aside class="project-toc" aria-label={text(lang,'On this page','页内导航')}>
+      <p class="eyebrow">{text(lang,'IN THIS PROJECT','本项目')}</p>
+      {(p.approvedSections||[]).map((s:any)=><a href={`#${s.id}`}>{s.title}</a>)}
+      {p.relatedPapers?.length>0&&<a href="#related-papers">{text(lang,'Related papers','相关论文与手稿')}</a>}
+    </aside>
+    <div class="project-prose reading">
+      {(p.approvedSections||[]).map((s:any)=><section id={s.id} class="approved-section"><h2>{s.title}</h2>{s.blocks.map((b:any)=>b.type==='figure'?<ProjectMedia media={b.media} lang={lang}/>:<p class:list={{lead:b.intro}}>{b.text}</p>)}</section>)}
+      {p.relatedPapers?.length>0&&<section class="approved-section related-project-papers" id="related-papers"><h2>{text(lang,'Related papers and manuscripts','相关论文与研究手稿')}</h2>{[
+        {statuses:['published'],title:text(lang,'Published papers','已发表论文')},
+        {statuses:['conference-paper'],title:text(lang,'Conference contributions','会议成果')},
+        {statuses:['preprint'],title:text(lang,'Preprints','预印本')},
+        {statuses:['under-review','manuscript-prepared'],title:text(lang,'Unpublished manuscripts','未发表手稿')}
+      ].map(group=>{const papers=p.relatedPapers.filter((x:any)=>group.statuses.includes(x.status));return papers.length>0&&<div><h3>{group.title}</h3><ul>{papers.map((paper:any)=><li><span class="paper-status">{paper.statusLabel}{paper.year&&` · ${paper.year}`}</span><strong>{paper.url?<a href={paper.url} target="_blank" rel="noopener noreferrer">{paper.title} ↗</a>:paper.title}</strong><p class="authors">{paper.authors}</p>{paper.venue&&<p class="venue">{paper.venue}</p>}</li>)}</ul></div>})}</section>}
+    </div>
+  </div>
+  <section class="section project-end"><a href={route(lang,'projects')}>← {text(lang,'Back to all projects','返回全部项目')}</a><a href={route(lang,'publications')}>{text(lang,'Publications','学术论文')} →</a></section>
+<ImageLightbox lang={lang}/>
+</article>
+</BaseLayout>

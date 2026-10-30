@@ -1,44 +1,120 @@
 {
-  "title": "Ontology-Guided KG-RAG for Geoscientific Knowledge and Reasoning",
-  "subtitle": "Connecting scientific literature, structured knowledge and reasoning",
-  "question": "Can structured domain knowledge improve the reliability and scientific usefulness of AI reasoning in geohazard research?",
-  "context": "Scientific literature on geomaterials, swelling and shrinkage, environmental triggers, hydrological response, crack evolution, hydro-mechanical instability, monitoring, prediction, mitigation and risk management.",
-  "approach": [
-    "Scientific literature",
-    "Domain ontology",
-    "Knowledge graph",
-    "Retrieval",
-    "LLM reasoning"
-  ],
-  "progress": "Ongoing research organizes domain knowledge and source evidence to support retrieval and scientific reasoning.",
-  "direction": "Can Scientific AI jointly reason over data, physics and knowledge?",
-  "next": "Improve evidence traceability and the alignment of generated conclusions with retrieved scientific sources.",
-  "update": "The 26 August 2026 report describes an ontology-guided knowledge framework built from 536 full-text papers, evaluated using 170 domain questions and an expansive-soil landslide case. These are progress-report materials, not a claim of publication.",
-  "outputs": "Ontology, knowledge organization and evaluation are ongoing. Public paper, code and data are forthcoming.",
   "lang": "en",
   "slug": "knowledge-augmented-geohazards",
-  "order": 3,
-  "shortTitle": "Ontology-guided KG-RAG",
   "program": 2,
-  "status": "Ongoing Research",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "status": "Ongoing research",
+  "tags": [
+    "Domain knowledge",
+    "Evidence retrieval",
+    "Traceable reasoning"
+  ],
+  "theme": "sage",
+  "order": 3,
+  "title": "Ontology-guided organization and engineering reuse of expansive-soil landslide knowledge",
+  "subtitle": "Knowledge & scientific reasoning",
+  "shortTitle": "Ontology-guided organization and engineering reuse of expansive-soil landslide knowledge",
+  "summary": "Mechanism analysis and engineering treatment of expansive-soil landslides require linking dispersed knowledge of materials, hydrology, fractures, monitoring, and mitigation. Based on 536 publications, this study constructs a six-dimensional domain ontology through topic analysis and reorganization based on engineering semantics. The ontology constrains entity and relation extraction, knowledge fusion, and evidence linking. A KG-RAG framework is then developed by combining ontology routing, graph relations, and text-vector retrieval. Standardized domain question answering and the case of Landslide No. 2 at Liugang Electric Pumping Station in the Pishihang Irrigation District, Anhui, are used to examine the traceable organization and reuse of existing knowledge in new engineering contexts.",
+  "question": "Mechanism analysis and engineering treatment of expansive-soil landslides require linking dispersed knowledge of materials, hydrology, fractures, monitoring, and mitigation.",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "Research question and methods",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "Mechanism analysis and engineering treatment of expansive-soil landslides require linking dispersed knowledge of materials, hydrology, fractures, monitoring, and mitigation. Based on 536 publications, this study constructs a six-dimensional domain ontology through topic analysis and reorganization based on engineering semantics. The ontology constrains entity and relation extraction, knowledge fusion, and evidence linking. A KG-RAG framework is then developed by combining ontology routing, graph relations, and text-vector retrieval. Standardized domain question answering and the case of Landslide No. 2 at Liugang Electric Pumping Station in the Pishihang Irrigation District, Anhui, are used to examine the traceable organization and reuse of existing knowledge in new engineering contexts."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-1.png",
+            "alt": "Ontology-guided framework for knowledge organization and retrieval",
+            "label": "Figure 1 Ontology-guided framework for knowledge organization and retrieval",
+            "caption": "The literature corpus is transformed into a knowledge graph through topic analysis, ontology design, and knowledge extraction. Graph relations and textual evidence jointly support retrieval, generation, and source tracing.",
+            "width": 1424,
+            "height": 1660
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Results",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-2.png",
+            "alt": "Six-dimensional domain ontology and engineering knowledge connections",
+            "label": "Figure 2 Six-dimensional domain ontology and engineering knowledge connections",
+            "caption": "The six-dimensional ontology organizes knowledge into material foundations, environment and hydrology, fractures and hydromechanical instability, monitoring data, assessment and prediction, and risk mitigation. Key entities and relations connect different engineering processes.",
+            "width": 1355,
+            "height": 888
+          }
+        },
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "Domain question answering compares the effectiveness of knowledge utilization, while the engineering case further examines the combination and reuse of knowledge under new site conditions. Together, they establish a validation chain from factual inputs to mechanism interpretation and engineering knowledge support."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Engineering case",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-3.png",
+            "alt": "Engineering geological conditions and case inputs for Landslide No. 2 in the Pishihang Irrigation District",
+            "label": "Figure 3 Engineering geological conditions and case inputs for Landslide No. 2 in the Pishihang Irrigation District",
+            "caption": "The case is located at Liugang Electric Pumping Station in the Pishihang Irrigation District, Anhui. The complete set of panels presents the location, images before and after the landslide, hydrological boundaries, variations in borehole water content and dry density, and slip-surface characteristics, providing site inputs for knowledge retrieval.",
+            "width": 1075,
+            "height": 1373
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Engineering insights",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "The case links irrigation and rainfall recharge at the slope crest, preferential infiltration through fractures, wetting from the canal at the slope toe, and localized softening. These connections support a mechanism interpretation involving deformation concentration in weak zones and progressive sliding, and are used to link relevant monitoring, assessment, and mitigation knowledge."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-4.png",
+            "alt": "Ontology-guided mechanism diagnosis and engineering knowledge support for the case",
+            "label": "Figure 4 Ontology-guided mechanism diagnosis and engineering knowledge support for the case",
+            "caption": "Site evidence is processed through ontology routing and hybrid retrieval to develop a mechanism diagnosis encompassing materials, hydrology, and instability processes, and to link monitoring, assessment, and mitigation knowledge. Borehole anomalies at depths of 10–12 m suggest a possible heterogeneous weak zone.",
+            "width": 3573,
+            "height": 3795
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/06-ontology-knowledge.webp",
+    "alt": "Ontology-guided organization and engineering reuse of expansive-soil landslide knowledge",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "Ontology-guided KG-RAG for fissured expansive-soil landslides: From knowledge organization to engineering application",
+      "authors": "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R",
+      "year": 2026,
+      "venue": "",
+      "status": "manuscript-prepared",
+      "statusLabel": "Manuscript prepared",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

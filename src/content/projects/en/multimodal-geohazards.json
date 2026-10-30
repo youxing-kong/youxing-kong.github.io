@@ -1,43 +1,101 @@
 {
-  "title": "Multimodal AI for Geological-Hazard Investigation",
-  "subtitle": "Structured geological information from field observations",
-  "question": "Can multimodal AI extract structured geological information and support preliminary hazard interpretation from real-world field observations?",
-  "context": "Field photographs and geological observations from engineering and geohazard investigation scenarios.",
-  "approach": [
-    "Field imagery",
-    "Multimodal AI",
-    "Structured information extraction",
-    "Evaluation",
-    "Hazard interpretation"
-  ],
-  "progress": "Ongoing work emphasizes reproducibility, structured outputs, evaluation and domain consistency.",
-  "direction": "Combining field imagery, spatial information, geological context and domain knowledge toward scalable geological investigation.",
-  "next": "Evaluate structured outputs against geological observations and domain-consistent interpretation.",
-  "outputs": "Research assets may include code, prompts, evaluation scripts, labels and model outputs. Public releases are forthcoming.",
   "lang": "en",
   "slug": "multimodal-geohazards",
-  "order": 2,
-  "shortTitle": "Multimodal AI",
   "program": 2,
-  "status": "Ongoing Research",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "status": "Ongoing research",
+  "tags": [
+    "Field imagery",
+    "Spatial understanding",
+    "Investigation"
+  ],
+  "theme": "earth",
+  "order": 2,
+  "title": "Geological hazard surveys along roads using large multimodal models",
+  "subtitle": "Intelligent geological investigation",
+  "shortTitle": "Geological hazard surveys along roads using large multimodal models",
+  "summary": "Geological hazard surveys along roads have accumulated extensive two-dimensional imagery, but organizing hazard characteristics and risk information and obtaining slope geometry still require substantial manual effort. This study introduces large multimodal models into field-image interpretation to extract hazard types, survey indicators, and risk levels step by step, and combines this process with image-based three-dimensional reconstruction to obtain slope geometry. A road-inspection demonstration presents hazard locations and levels along the route, while three-dimensional modeling adds representations of slope surfaces and geometry.",
+  "question": "Geological hazard surveys along roads have accumulated extensive two-dimensional imagery, but organizing hazard characteristics and risk information and obtaining slope geometry still require substantial manual effort.",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "Research question and methods",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "Geological hazard surveys along roads have accumulated extensive two-dimensional imagery, but organizing hazard characteristics and risk information and obtaining slope geometry still require substantial manual effort. This study introduces large multimodal models into field-image interpretation to extract hazard types, survey indicators, and risk levels step by step, and combines this process with image-based three-dimensional reconstruction to obtain slope geometry. A road-inspection demonstration presents hazard locations and levels along the route, while three-dimensional modeling adds representations of slope surfaces and geometry."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-2-figure-1.png",
+            "alt": "Framework for image-based geological hazard surveys",
+            "label": "Figure 1 Framework for image-based geological hazard surveys",
+            "caption": "Field images, background information, and engineering survey fields are processed together to produce structured records of hazard types, supporting evidence, indicators, and levels.",
+            "width": 1269,
+            "height": 1214
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-2-figure-2.png",
+            "alt": "Stepwise survey workflow and structured output",
+            "label": "Figure 2 Stepwise survey workflow and structured output",
+            "caption": "The survey workflow identifies hazard types and subtypes, extracts general and specialized fields, and incorporates environmental information. The three-dimensional modeling component links viewpoints through corresponding points in images acquired from multiple positions, reconstructs the slope surface, and extracts geometric information.",
+            "width": 1269,
+            "height": 1137
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Results",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/road-inspection-continuous.gif",
+            "alt": "Demonstration of road inspection and three-dimensional modeling",
+            "label": "Figure 3 Demonstration of road inspection and three-dimensional modeling",
+            "caption": "Images along the route show rock-slope locations and level markers. The multi-position photography schematic illustrates connections between viewpoints, and comparisons of images and models from the same viewpoint present slope morphology and texture.",
+            "width": 640,
+            "height": 360,
+            "kind": "gif",
+            "poster": "images/projects/approved-20261030/road-inspection-en-poster.jpg",
+            "videoSrc": "images/projects/approved-20261030/road-inspection-en.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Engineering insights",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "Large multimodal models organize field images into verifiable survey records, while photogrammetric three-dimensional reconstruction provides additional information on slope morphology and geometry. Together, they support geological hazard surveys along roads and spatial verification."
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/01-multimodal-investigation.webp",
+    "alt": "Geological hazard surveys along roads using large multimodal models",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "A Single Image Is All You Need: A Knowledge-Guided Multimodal AI Framework for Geological Hazard Investigation",
+      "authors": "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R.",
+      "year": 2026,
+      "venue": "",
+      "status": "under-review",
+      "statusLabel": "Under review",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

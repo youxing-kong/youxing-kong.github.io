@@ -1,43 +1,194 @@
 {
-  "title": "裂隙性膨胀土多尺度变形破坏与失稳机制",
-  "subtitle": "连接裂隙、材料行为与边坡失稳",
-  "question": "裂隙如何改变膨胀土及边坡的力学行为与失稳机制？",
-  "context": "通过室内试验、模型试验与现场观测研究裂隙性膨胀土及边坡。CV 记录了 2020—2024 年的相关工作，研究方向持续延伸。",
-  "approach": [
-    "岩土试验与断裂力学",
-    "DIC 与电阻监测",
-    "微观结构表征",
-    "边坡模型试验",
-    "现场调查"
-  ],
-  "progress": "已发表研究涉及断裂力学试验下的裂隙扩展，以及加载和灌溉作用下的边坡变形。滑面微结构研究在 CV 中单独列为预印本。",
-  "direction": "这项工作构成当前科学人工智能研究的力学基础。人工智能的预测最终应当能够与真实材料行为、物理过程和破坏机制建立联系。",
-  "next": "将物理机制认识与地质系统演化及失稳的科学学习连接起来。",
-  "outputs": "相关已发表论文与预印本列于下方，保留 CV 中的原有状态。",
   "lang": "zh",
   "slug": "expansive-soil-mechanics",
+  "program": 2,
+  "status": "已发表成果与进行中研究",
+  "tags": [
+    "矿物水化",
+    "裂隙演化",
+    "边坡机制"
+  ],
+  "theme": "clay",
   "order": 4,
-  "shortTitle": "Expansive Soil Mechanics",
-  "program": 3,
-  "status": "已发表并持续研究",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "title": "膨胀土多尺度变形与破坏机制",
+  "subtitle": "多尺度岩土力学",
+  "shortTitle": "膨胀土多尺度变形与破坏机制",
+  "summary": "膨胀土的胀缩变形和边坡失稳与水分变化密切相关，其作用涉及矿物层间结构、土体裂隙扩展和坡体变形。研究采用蒙脱石分子动力学模拟、CCNBD裂隙扩展试验和含裂隙边坡模型试验，分别考察层间结构变化、裂隙尖端变形与坡体应变演化。结果表明，水化经历影响蒙脱石层间结构，裂隙进水改变应变扩展和抗断裂能力，既有裂隙与入渗共同影响边坡变形和浅层滑动。",
+  "question": "膨胀土的胀缩变形和边坡失稳与水分变化密切相关，其作用涉及矿物层间结构、土体裂隙扩展和坡体变形。",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "科学问题与方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "膨胀土的胀缩变形和边坡失稳与水分变化密切相关，其作用涉及矿物层间结构、土体裂隙扩展和坡体变形。研究采用蒙脱石分子动力学模拟、CCNBD裂隙扩展试验和含裂隙边坡模型试验，分别考察层间结构变化、裂隙尖端变形与坡体应变演化。结果表明，水化经历影响蒙脱石层间结构，裂隙进水改变应变扩展和抗断裂能力，既有裂隙与入渗共同影响边坡变形和浅层滑动。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-1.png",
+            "alt": "Na型与Ca型蒙脱石分子模型",
+            "label": "图1 Na型与Ca型蒙脱石分子模型",
+            "caption": "连续水化与脱水逐级继承前一状态的平衡构型，在相同层间含水量下比较不同经历形成的层间结构。",
+            "width": 2639,
+            "height": 1835
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-2.png",
+            "alt": "CCNBD裂隙扩展试验系统",
+            "label": "图2 CCNBD裂隙扩展试验系统",
+            "caption": "加载系统、数字图像相关与电阻测试同步记录荷载、表面应变和电阻变化，用于跟踪裂隙扩展与内部损伤演化。",
+            "width": 1935,
+            "height": 570
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-3.png",
+            "alt": "含裂隙边坡模型试验设计",
+            "label": "图3 含裂隙边坡模型试验设计",
+            "caption": "试样制备后布置散斑，组合不同裂隙的边坡模型并开展加载或入渗试验，通过VIC-2d分析坡体表面应变。",
+            "width": 3957,
+            "height": 1522
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "结果",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-4.png",
+            "alt": "水化脱水过程的基面间距与路径差",
+            "label": "图4 水化脱水过程的基面间距与路径差",
+            "caption": "Δd001为相同层间含水量下水化平均间距减去脱水平均间距。Na型和Ca型的路径分离随水化状态变化，部分状态的平均间距接近。",
+            "width": 2641,
+            "height": 1495
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-5.png",
+            "alt": "I型拉伸破坏的荷载与应变演化",
+            "label": "图5 I型拉伸破坏的荷载与应变演化",
+            "caption": "荷载、电阻率表征的损伤变量Dρ与数字图像相关拉应变共同记录裂隙扩展。峰值前形成应变集中区，峰值后裂纹由尖端快速扩展。",
+            "width": 2129,
+            "height": 942
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-6.png",
+            "alt": "II型剪切破坏的荷载与应变演化",
+            "label": "图6 II型剪切破坏的荷载与应变演化",
+            "caption": "剪应变由加载区向裂隙尖端发展，并在峰值附近扩展与贯通；损伤变量补充记录破坏过程。",
+            "width": 2084,
+            "height": 819
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-7.png",
+            "alt": "注水条件下边坡模型的应变演化",
+            "label": "图7 注水条件下边坡模型的应变演化",
+            "caption": "四个面板对照10°与20°单裂隙模型在两级加载下的应变分布。加载与注水共同作用下，应变沿裂隙与局部坡体发展，各面板采用独立色标。",
+            "width": 3301,
+            "height": 1820
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "工程认识",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "微观尺度上，水分子分布与阳离子水化的路径差异维持蒙脱石层间结构滞回；试样尺度上，裂隙进水形成局部软化并改变裂纹扩展；边坡尺度上，既有裂隙影响应变传递，加载促使沿裂隙界面滑动，入渗促进浅层滑面形成。模型试验表明，坡体中部与坡脚是加固需重点关注的部位。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-8.png",
+            "alt": "层间结构与局部水化的机制联系",
+            "label": "图8 层间结构与局部水化的机制联系",
+            "caption": "水分子占位、阳离子水化和相互作用的路径差异共同维持层间结构差异，并为理解较高层级的差异胀缩提供机制线索。",
+            "width": 4225,
+            "height": 4202
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-9.png",
+            "alt": "有无裂隙注水条件下的应变分布",
+            "label": "图9 有无裂隙注水条件下的应变分布",
+            "caption": "对照试样显示，未注水时应变主要由加载端向裂隙发展，注水条件下裂隙周边软化区也参与变形。图中比较不同进水条件的空间分布。",
+            "width": 1691,
+            "height": 1406
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/05-expansive-soil-mechanics.webp",
+    "alt": "膨胀土多尺度变形与破坏机制",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "Study on the extension mechanism of fissures in expansive soil based on fracture mechanics test method",
+      "authors": "Kong, Y., Li, Z., Sun, K., Qi, Z., & Hu, R.",
+      "year": 2024,
+      "venue": "Engineering Geology, 343, 107778.",
+      "status": "published",
+      "statusLabel": "已发表",
+      "url": "https://doi.org/10.1016/j.enggeo.2024.107778",
+      "doi": "10.1016/j.enggeo.2024.107778"
+    },
+    {
+      "title": "Model test study on deformation characteristics of a fissured expansive soil slope subjected to loading and irrigation",
+      "authors": "Li, Z., Kong, Y., Fu, L., Zhou, Y., Qian, Z., & Hu, R.",
+      "year": 2021,
+      "venue": "Applied Sciences, 11(22), 10891.",
+      "status": "published",
+      "statusLabel": "已发表",
+      "url": "https://doi.org/10.3390/app112210891",
+      "doi": "10.3390/app112210891"
+    },
+    {
+      "title": "Study on sliding surface characteristics of expansive soil based on quantitative evaluation of microstructure",
+      "authors": "Kong, Y., Li, Z., Qi, Z., Sun, K., & Hu, R.",
+      "year": 2024,
+      "venue": "Research Square.",
+      "status": "preprint",
+      "statusLabel": "预印本",
+      "url": "https://doi.org/10.21203/rs.3.rs-4275076/v1",
+      "doi": "10.21203/rs.3.rs-4275076/v1"
+    },
+    {
+      "title": "Atomistic mechanisms underlying structural hysteresis in expansive soils during wetting–drying: Evidence from molecular dynamics simulations of montmorillonite",
+      "authors": "Kong, Y., Li, Z., He, Z., Li, L., Wang, S., Hu, F., & Hu, R.",
+      "year": 2026,
+      "venue": "",
+      "status": "manuscript-prepared",
+      "statusLabel": "手稿已完成",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

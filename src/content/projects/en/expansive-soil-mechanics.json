@@ -1,43 +1,194 @@
 {
-  "title": "Multiscale Mechanisms of Fissured Expansive-Soil Failure",
-  "subtitle": "Connecting cracks, material behavior and slope instability",
-  "question": "How do cracks alter the mechanical behavior and failure mechanisms of expansive soils and slopes?",
-  "context": "Fissured expansive soils and slopes investigated through laboratory, model-scale and field observations. The CV records this research during 2020–2024, with continuing research directions.",
-  "approach": [
-    "Geotechnical experiments and fracture mechanics",
-    "DIC and electrical resistance monitoring",
-    "Microstructural characterization",
-    "Slope model testing",
-    "Field investigation"
-  ],
-  "progress": "Published work addresses fissure extension through fracture-mechanics tests and slope deformation under loading and irrigation. A study on sliding-surface microstructure is listed separately as a preprint in the CV.",
-  "direction": "This research forms the Mechanics foundation of my current Scientific AI research. AI predictions should ultimately correspond to real material behavior, physical processes and failure mechanisms.",
-  "next": "Connect physical-mechanism understanding with scientific learning of geosystem evolution and failure.",
-  "outputs": "Published papers and a preprint are linked below, preserving the status recorded in the CV.",
   "lang": "en",
   "slug": "expansive-soil-mechanics",
+  "program": 2,
+  "status": "Published work & ongoing research",
+  "tags": [
+    "Mineral hydration",
+    "Fracturing",
+    "Slope mechanisms"
+  ],
+  "theme": "clay",
   "order": 4,
-  "shortTitle": "Expansive Soil Mechanics",
-  "program": 3,
-  "status": "Published & Continuing",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "title": "Multiscale deformation and failure mechanisms of expansive soils",
+  "subtitle": "Multiscale geotechnical mechanics",
+  "shortTitle": "Multiscale deformation and failure mechanisms of expansive soils",
+  "summary": "Swelling–shrinkage deformation and slope instability in expansive soils are closely related to moisture changes, whose effects involve mineral interlayer structures, soil fracture propagation, and slope deformation. This study uses molecular dynamics simulations of montmorillonite, CCNBD fracture propagation tests, and fractured-slope model tests to investigate changes in interlayer structure, fracture-tip deformation, and slope strain evolution, respectively. The results show that hydration history affects the interlayer structure of montmorillonite, water ingress into fractures alters strain propagation and fracture resistance, and pre-existing fractures and infiltration jointly influence slope deformation and shallow sliding.",
+  "question": "Swelling–shrinkage deformation and slope instability in expansive soils are closely related to moisture changes, whose effects involve mineral interlayer structures, soil fracture propagation, and slope deformation.",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "Research question and methods",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "Swelling–shrinkage deformation and slope instability in expansive soils are closely related to moisture changes, whose effects involve mineral interlayer structures, soil fracture propagation, and slope deformation. This study uses molecular dynamics simulations of montmorillonite, CCNBD fracture propagation tests, and fractured-slope model tests to investigate changes in interlayer structure, fracture-tip deformation, and slope strain evolution, respectively. The results show that hydration history affects the interlayer structure of montmorillonite, water ingress into fractures alters strain propagation and fracture resistance, and pre-existing fractures and infiltration jointly influence slope deformation and shallow sliding."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-1.png",
+            "alt": "Molecular models of Na- and Ca-montmorillonite",
+            "label": "Figure 1 Molecular models of Na- and Ca-montmorillonite",
+            "caption": "Successive hydration and dehydration steps inherit the equilibrated configuration from the preceding state, allowing interlayer structures formed by different histories to be compared at the same interlayer water content.",
+            "width": 2639,
+            "height": 1835
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-2.png",
+            "alt": "CCNBD fracture propagation test system",
+            "label": "Figure 2 CCNBD fracture propagation test system",
+            "caption": "The loading system, digital image correlation, and electrical resistance measurements synchronously record load, surface strain, and resistance changes to track fracture propagation and the evolution of internal damage.",
+            "width": 1935,
+            "height": 570
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-3.png",
+            "alt": "Design of fractured-slope model tests",
+            "label": "Figure 3 Design of fractured-slope model tests",
+            "caption": "After specimen preparation, speckles are applied and slope models with different fracture configurations are assembled for loading or infiltration tests. VIC-2d is used to analyze strain on the slope surface.",
+            "width": 3957,
+            "height": 1522
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Results",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-4.png",
+            "alt": "Basal spacing and path differences during hydration and dehydration",
+            "label": "Figure 4 Basal spacing and path differences during hydration and dehydration",
+            "caption": "Δd001 is the mean spacing during hydration minus the mean spacing during dehydration at the same interlayer water content. The separation between hydration and dehydration paths for Na- and Ca-montmorillonite varies with hydration state, and the mean spacings are similar at some states.",
+            "width": 2641,
+            "height": 1495
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-5.png",
+            "alt": "Load and strain evolution during Mode I tensile failure",
+            "label": "Figure 5 Load and strain evolution during Mode I tensile failure",
+            "caption": "Load, the resistivity-based damage variable Dρ, and tensile strain measured by digital image correlation jointly record fracture propagation. A strain concentration zone forms before peak load, and the crack propagates rapidly from the tip after the peak.",
+            "width": 2129,
+            "height": 942
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-6.png",
+            "alt": "Load and strain evolution during Mode II shear failure",
+            "label": "Figure 6 Load and strain evolution during Mode II shear failure",
+            "caption": "Shear strain develops from the loading region toward the fracture tip, and strain zones expand and coalesce near peak load. The damage variable provides an additional record of the failure process.",
+            "width": 2084,
+            "height": 819
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-7.png",
+            "alt": "Strain evolution in slope models under water injection",
+            "label": "Figure 7 Strain evolution in slope models under water injection",
+            "caption": "Four panels compare strain distributions in single-fracture models with fracture angles of 10° and 20° under two loading levels. Under the combined effects of loading and water injection, strain develops along the fractures and within localized parts of the slope. Each panel uses an independent color scale.",
+            "width": 3301,
+            "height": 1820
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Engineering insights",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "At the microscopic scale, path-dependent differences in water-molecule distribution and cation hydration sustain hysteresis in the interlayer structure of montmorillonite. At the specimen scale, water ingress into fractures causes localized softening and alters crack propagation. At the slope scale, pre-existing fractures affect strain transfer, loading promotes sliding along fracture interfaces, and infiltration promotes the formation of shallow slip surfaces. The model tests indicate that the middle and toe of the slope warrant particular attention in reinforcement."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-8.png",
+            "alt": "Mechanistic links between interlayer structure and local hydration",
+            "label": "Figure 8 Mechanistic links between interlayer structure and local hydration",
+            "caption": "Path-dependent differences in water-molecule occupancy, cation hydration, and interactions jointly maintain differences in interlayer structure and provide mechanistic clues for understanding differential swelling and shrinkage at higher scales.",
+            "width": 4225,
+            "height": 4202
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-4-figure-9.png",
+            "alt": "Strain distributions with and without water injection into fractures",
+            "label": "Figure 9 Strain distributions with and without water injection into fractures",
+            "caption": "Comparisons between specimens show that, without water injection, strain develops mainly from the loading end toward the fracture; with water injection, softened regions around the fracture also contribute to deformation. The figure compares spatial distributions under different water-ingress conditions.",
+            "width": 1691,
+            "height": 1406
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/05-expansive-soil-mechanics.webp",
+    "alt": "Multiscale deformation and failure mechanisms of expansive soils",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "Study on the extension mechanism of fissures in expansive soil based on fracture mechanics test method",
+      "authors": "Kong, Y., Li, Z., Sun, K., Qi, Z., & Hu, R.",
+      "year": 2024,
+      "venue": "Engineering Geology, 343, 107778.",
+      "status": "published",
+      "statusLabel": "Published",
+      "url": "https://doi.org/10.1016/j.enggeo.2024.107778",
+      "doi": "10.1016/j.enggeo.2024.107778"
+    },
+    {
+      "title": "Model test study on deformation characteristics of a fissured expansive soil slope subjected to loading and irrigation",
+      "authors": "Li, Z., Kong, Y., Fu, L., Zhou, Y., Qian, Z., & Hu, R.",
+      "year": 2021,
+      "venue": "Applied Sciences, 11(22), 10891.",
+      "status": "published",
+      "statusLabel": "Published",
+      "url": "https://doi.org/10.3390/app112210891",
+      "doi": "10.3390/app112210891"
+    },
+    {
+      "title": "Study on sliding surface characteristics of expansive soil based on quantitative evaluation of microstructure",
+      "authors": "Kong, Y., Li, Z., Qi, Z., Sun, K., & Hu, R.",
+      "year": 2024,
+      "venue": "Research Square.",
+      "status": "preprint",
+      "statusLabel": "Preprint",
+      "url": "https://doi.org/10.21203/rs.3.rs-4275076/v1",
+      "doi": "10.21203/rs.3.rs-4275076/v1"
+    },
+    {
+      "title": "Atomistic mechanisms underlying structural hysteresis in expansive soils during wetting–drying: Evidence from molecular dynamics simulations of montmorillonite",
+      "authors": "Kong, Y., Li, Z., He, Z., Li, L., Wang, S., Hu, F., & Hu, R.",
+      "year": 2026,
+      "venue": "",
+      "status": "manuscript-prepared",
+      "statusLabel": "Manuscript prepared",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

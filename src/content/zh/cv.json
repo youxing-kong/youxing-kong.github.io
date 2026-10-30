@@ -1,153 +1,595 @@
 {
-  "name": "孔佑兴",
-  "identity": "面向复杂岩土与地质灾害系统的科学人工智能",
-  "role": "地质工程博士研究生",
-  "location": "北京，中国",
-  "email": "kongyouxing@126.com",
-  "summary": "聚焦复杂岩土与地质灾害系统的科学人工智能研究，关注如何从稀疏、异构和多尺度观测中认识系统状态，融合物理规律与领域知识学习演化机制，进一步开展失稳预测、不确定性分析与可信工程决策。",
-  "spine": "观测 → 理解 → 预测 → 决策",
-  "approach": "现场工程 × 岩土力学与试验 × 科学人工智能",
+  "name": "孔佑兴  Youxing Kong",
+  "identity": "面向复杂岩土与地质灾害系统的科学人工智能 | 中国科学院，北京",
+  "email": "kongyouxing21@mails.ucas.ac.cn",
+  "overview": [
+    "聚焦复杂岩土与地质灾害系统的科学人工智能研究，关注如何从稀疏、异构和多尺度观测中认识系统状态，融合物理规律与领域知识学习演化机制，进一步开展失稳预测、不确定性分析与可信工程决策。",
+    "研究主线：观测 → 理解 → 预测 → 决策    |    研究方式：现场工程 × 岩土力学与试验 × 科学人工智能"
+  ],
   "sections": [
     {
       "id": "education",
       "title": "教育经历",
       "entries": [
         {
-          "date": "2025.09 – 至今",
-          "title": "地质工程博士研究生",
+          "title": "博士研究生，地质工程 - 中国科学院地质与地球物理研究所 / 中国科学院大学",
+          "date": "2025.09—至今",
           "paragraphs": [
-            "中国科学院地质与地球物理研究所 / 中国科学院大学。",
-            "当前研究聚焦复杂岩土与地质灾害系统的科学人工智能，包括时空学习、物理与知识引导建模、长期变形预测与失稳预测。"
+            "• 当前研究聚焦复杂岩土与地质灾害系统的科学人工智能，包括时空学习、物理与知识引导建模、长期变形预测与失稳预测。"
           ]
         },
         {
-          "date": "2021 – 2024",
-          "title": "工程硕士，地质工程",
+          "title": "工学硕士，地质工程 - 中国科学院地质与地球物理研究所 / 中国科学院大学",
+          "date": "2021—2024",
           "paragraphs": [
-            "中国科学院地质与地球物理研究所 / 中国科学院大学。",
-            "GPA 3.66；学位论文：裂隙性膨胀土滑坡致灾机理研究。",
-            "围绕膨胀土裂隙扩展与滑坡失稳开展断裂力学试验、DIC 与电阻率监测、微观结构表征、边坡模型试验及现场滑坡机制分析。"
+            "GPA 3.66 | 学位论文：裂隙性膨胀土滑坡致灾机理研究",
+            "• 围绕膨胀土裂隙扩展与滑坡失稳开展断裂力学试验、DIC 与电阻率监测、微观结构表征、边坡模型试验及现场滑坡机制分析。"
           ]
         },
         {
-          "date": "2017 – 2021",
-          "title": "工学学士，土木工程",
+          "title": "工学学士，土木工程 - 中国地质大学（北京）",
+          "date": "2017—2021",
           "paragraphs": [
-            "中国地质大学（北京）。",
-            "GPA 3.68；专业排名 2/78（前 3%）。"
+            "GPA 3.68 | 专业排名 2/78（前 3%）"
           ]
         }
       ]
     },
     {
       "id": "experience",
-      "title": "工作与创业经历",
+      "title": "工作经历",
       "entries": [
         {
-          "date": "2024.07 – 至今",
-          "title": "科研与工程技术",
+          "title": "中级工程师，北京城建勘测设计研究院有限责任公司",
+          "date": "2024.07—至今",
           "paragraphs": [
-            "城市安全研究院，北京城建勘测设计研究院有限责任公司。",
-            "从事城市基础设施安全监测、智能检测与科研工作，覆盖地铁隧道移动扫描与表观病害巡检、建筑结构监测、市政管线调查等真实工程场景。",
-            "结合工程监测数据开展图像识别、生成式图像处理与时序预测，并参与科研论文、技术报告及人工智能相关课题申报。"
+            "• 从事城市基础设施安全监测、智能检测与科研工作，覆盖地铁隧道移动扫描与表观病害巡检、建筑结构监测、市政管线调查等工程场景。",
+            "• 结合工程监测数据开展相关研究及课题申报。"
           ]
         },
         {
-          "date": "2023.10 – 至今",
-          "title": "苦良工工作室，联合创始人",
+          "title": "个人创业，苦良工工作室",
+          "date": "2023.10—至今",
           "paragraphs": [
-            "联合创办并运营 AI 驱动的科研与知识工作室，探索生成式人工智能在科研支持、信息综合、数据分析、科研表达与知识管理中的应用。",
-            "设计从任务分析、AI 工作流构建到成果交付的完整流程，探索轻量化、AI 增强型知识服务与专业工作模式。"
+            "• 联合创办并运营 AI 驱动的科研与知识工作室，探索生成式人工智能在科研支持、数据分析、科研表达与知识管理中的应用。",
+            "• 设计从任务分析、AI 工作流构建到成果交付的完整流程，探索轻量化、AI 增强型知识服务与专业工作模式。"
           ]
         }
       ]
     },
     {
-      "id": "research-experience",
-      "title": "代表性研究",
+      "id": "research-projects",
+      "title": "科研项目",
       "entries": [
         {
-          "date": "2020 – 2024",
-          "title": "裂隙性膨胀土的多尺度变形破坏与滑坡失稳机制",
+          "title": "主要参与人，国家重点研发计划《膨胀土滑坡和工程边坡防治工程新型材料与新型技术》(2019YFC1509903)",
+          "date": "2020.10—2024.07",
           "paragraphs": [
-            "围绕裂隙如何影响膨胀土强度、变形与滑坡失稳开展研究，结合断裂力学试验、DIC/电阻率监测、微观结构表征与边坡模型试验，从多尺度解释裂隙扩展与失稳机制。"
+            "• 研究膨胀土水力–力学特性、边坡失稳机理及工程防治技术，重点关注水分变化与土体强度退化对边坡稳定性的影响。"
           ]
         },
         {
-          "date": "2024 – 2025",
-          "title": "工程监测数据驱动的隧道表观病害识别",
+          "title": "主要参与人，第二次青藏科考《南亚通道—喜马拉雅—河湖源区重大工程扰动灾害及风险》（2019QZKK0904）",
+          "date": "2022.09—2024.10",
           "paragraphs": [
-            "面向隧道表观病害与大型结构监测数据，开展深度学习识别、生成式图像补全和时序预测，探索从工程监测数据中提取状态、识别异常并预测演化。"
+            "• 研究青藏高原重大工程沿线地质灾害的发育特征、空间分异及风险形成机制，探索复杂山区地质灾害调查与风险评价方法。"
           ]
         },
         {
-          "date": "2025 – 至今",
-          "title": "稀疏观测下边坡时空变形场学习与长期预测",
+          "title": "主要参与人，国家自然科学基金《多尺度裂隙性膨胀土浅层滑坡的微观控制机理》（42572368）",
+          "date": "2026.01—至今",
           "paragraphs": [
-            "以 STAC-GNSS 为核心，从稀疏 GNSS 监测网络学习连续边坡变形场与多时间尺度演化，进一步研究多源观测融合、空间泛化与长期预测。"
+            "• 研究干湿循环下膨胀土微观结构演化、裂隙发育及多尺度水力–力学耦合机制，揭示浅层滑坡的微观控制机理。"
           ]
         },
         {
-          "date": "2026 – 至今",
-          "title": "物理与知识引导的复杂地质系统科学人工智能",
+          "title": "参与人，国家自然科学基金《基于海量数据的地铁盾构隧道结构服役性能研究》（52378385）",
+          "date": "2024.01—至今",
           "paragraphs": [
-            "围绕复杂地质系统的演化与失稳，将数据驱动学习进一步拓展至物理约束、多保真、不确定性量化与知识增强推理，探索 Data + Physics + Knowledge 融合的 Scientific AI。"
+            "• 研究盾构隧道结构服役状态演化、表观病害特征及识别可靠性，重点关注复杂环境下的隧道结构安全评价问题。"
+          ]
+        },
+        {
+          "title": "参与人，国家重点研发计划《西南诸河上游重大水电工程扰动区一体化边坡防护与生态修复技术》（2024YFF1307800）",
+          "date": "2025.07—至今",
+          "paragraphs": [
+            "• 研究重大水电工程扰动下边坡变形失稳机制、灾害风险演化及工程防护与生态修复的协同机制。"
           ]
         }
       ]
     },
     {
       "id": "field-practice",
-      "title": "工程与现场实践",
+      "title": "工程实践",
       "entries": [
         {
-          "date": "2020.07 – 2020.09",
-          "title": "山东省物化探勘查设计研究院，大气沉降物监测分析",
+          "title": "山东省物化探勘查设计研究院 - 大气沉降物监测分析",
+          "date": "2020.07—2020.09",
           "paragraphs": [
-            "参与大气沉降物现场监测、样品采集与分析，接触环境地球化学调查、样品质量控制和真实环境数据获取流程。"
+            "• 参与大气沉降物现场监测、样品采集与分析，接触环境地球化学调查、样品质量控制和真实环境数据获取流程。"
           ]
         },
         {
-          "date": "2021.09 – 2021.12",
-          "title": "云南楚雄 MICP 生态固坡示范工程",
+          "title": "云南楚雄 - MICP 生态固坡示范工程",
+          "date": "2021.09—2021.12",
           "paragraphs": [
-            "参与磷石膏资源化与 MICP 技术生态固坡示范，涉及微生物培养、材料混合、机械喷播、植被种植及现场施工。"
+            "• 参与磷石膏资源化与 MICP 技术生态固坡示范，涉及微生物培养、材料混合、机械喷播、植被种植及现场施工。"
           ]
         },
         {
-          "date": "2021 – 2024",
-          "title": "第二次青藏高原综合科学考察，道路沿线地质灾害调查与评估",
+          "title": "河南叶鲁高速 - 煤矸石路基工程应用研究",
+          "date": "2023.03—2023.06",
           "paragraphs": [
-            "结合遥感解译与现场调查完成超过 2000 km 道路沿线滑坡、崩塌与泥石流调查，识别 232 处灾害点并参与区域风险分区。"
+            "• 针对不同粒径与级配煤矸石开展击实、振动击实与 CBR 等试验，并结合试验路段评价其作为路基填料的工程适用性。"
           ]
         },
         {
-          "date": "2023.03 – 2023.06",
-          "title": "河南叶鲁高速，煤矸石路基工程应用研究",
-          "paragraphs": [
-            "针对不同粒径与级配煤矸石开展击实、振动击实与 CBR 等试验，并结合试验路段评价其作为路基填料的工程适用性。"
-          ]
-        },
-        {
+          "title": "张家湾车辆段 - 大型钢结构建筑穹顶卸载监测",
           "date": "2024.08",
-          "title": "张家湾车辆段大型钢结构穹顶卸载监测",
           "paragraphs": [
-            "参与关键构件应变传感器布设、应力与温度连续监测及数据分析，服务大型穹顶钢结构分阶段卸载安全控制。"
+            "• 参与关键构件应变传感器布设、应力与温度连续监测及数据分析，服务大型穹顶钢结构分阶段卸载安全控制。"
           ]
         },
         {
-          "date": "2024.10 – 2025.08",
-          "title": "城市轨道交通隧道移动扫描与表观病害监测",
-          "paragraphs": [
-            "参与地铁隧道移动激光扫描、渗漏水等表观病害巡检及点云/灰度图处理，并开展断面、收敛、错台和侵限等结构参数分析。"
-          ]
-        },
-        {
+          "title": "北京市地铁隧道联络通道防火门检测与测绘",
           "date": "2025.04",
-          "title": "地铁隧道联络通道防火门检测与测绘",
           "paragraphs": [
-            "在运营天窗和夜间作业条件下参与联络通道防火门现场检测、工程测绘与状态信息采集，积累复杂地下空间现场组织与检测经验。"
+            "• 在运营天窗和夜间作业条件下参与联络通道防火门现场检测、工程测绘与状态信息采集，积累复杂地下空间现场组织与检测经验。"
           ]
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "title": "代表性论文与手稿",
+      "entries": [
+        {
+          "kind": "subheading",
+          "title": "论文、会议成果与预印本",
+          "date": "",
+          "paragraphs": []
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Sun, K., Qi, Z., & Hu, R. (2024). Study on the extension mechanism of fissures in expansive soil based on fracture mechanics test method. Engineering Geology, 343, 107778. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., Sun, K., Qi, Z., & Hu, R. (2024). "
+            },
+            {
+              "text": "Study on the extension mechanism of fissures in expansive soil based on fracture mechanics test method. "
+            },
+            {
+              "text": "Engineering Geology, 343"
+            },
+            {
+              "text": ", 107778."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1016/j.enggeo.2024.107778"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Qi, Z., Sun, K., & Hu, R. (2024). Study on sliding surface characteristics of expansive soil based on quantitative evaluation of microstructure. Research Square [预印本]. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., Qi, Z., Sun, K., & Hu, R. (2024). Study on sliding surface characteristics of expansive soil based on quantitative evaluation of microstructure. "
+            },
+            {
+              "text": "Research Square"
+            },
+            {
+              "text": " [预印本]."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.21203/rs.3.rs-4275076/v1"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Wang, S., Li, Z., Li, L., Kong, Y., Su, W., Qi, Z., Hu, R., & Qi, S. (2026). A nonlinear viscoelastic-plastic creep damage model of frozen soil-rock mixture under different temperatures and block conditions: Unique sights from the resistivity perspective. Engineering Geology, 370, 108831. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Wang, S., Li, Z., Li, L., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Su, W., Qi, Z., Hu, R., & Qi, S. (2026). A nonlinear viscoelastic-plastic creep damage model of frozen soil-rock mixture under different temperatures and block conditions: Unique sights from the resistivity perspective. "
+            },
+            {
+              "text": "Engineering Geology, 370"
+            },
+            {
+              "text": ", 108831."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1016/j.enggeo.2026.108831"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Sun, K., Li, Z., Wang, H., Kong, Y., Wang, S., Zhou, Y., & Hu, R. (2025). Integrated machine learning using autoencoder and multilayer perceptron approaches to predict stress-strain curves of frozen soil-rock mixtures. International Journal of Geomechanics, 25(10), 04025229. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Sun, K., Li, Z., Wang, H., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Wang, S., Zhou, Y., & Hu, R. (2025). Integrated machine learning using autoencoder and multilayer perceptron approaches to predict stress-strain curves of frozen soil-rock mixtures. "
+            },
+            {
+              "text": "International Journal of Geomechanics, 25"
+            },
+            {
+              "text": "(10), 04025229."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1061/IJGNAI.GMENG-10984"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Wang, Z., Wang, Y., Hou, Y., Wang, X., Chen, Y., & Kong, Y. (2025). 3D laser scanning combined with BIM model for construction quality inspection of large-span steel structures—A case study of the dome steel structure in Zhangjiawan Depot Comprehensive Utilization Project. In D. Bassir (Ed.), Smart manufacturing, structural health monitoring and digital twins (pp. 122—131). IOS Press. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Wang, Z., Wang, Y., Hou, Y., Wang, X., Chen, Y., & "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": " (2025). 3D laser scanning combined with BIM model for construction quality inspection of large-span steel structures—A case study of the dome steel structure in Zhangjiawan Depot Comprehensive Utilization Project. In D. Bassir (Ed.), "
+            },
+            {
+              "text": "Smart manufacturing, structural health monitoring and digital twins"
+            },
+            {
+              "text": " (pp. 122—131). IOS Press."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.3233/ATDE251181"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Qi, Z., Li, Z., Li, L., Kong, Y., He, Z., & Zhou, Y. (2024). Study on the tensile characteristics of Brazilian split in remolded loess based on resistivity and DIC techniques. Environmental Earth Sciences, 83, 377. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Qi, Z., Li, Z., Li, L., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", He, Z., & Zhou, Y. (2024). Study on the tensile characteristics of Brazilian split in remolded loess based on resistivity and DIC techniques. "
+            },
+            {
+              "text": "Environmental Earth Sciences, 83"
+            },
+            {
+              "text": ", 377."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1007/s12665-024-11690-3"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Li, Z., Kong, Y., Fu, L., Zhou, Y., Qian, Z., & Hu, R. (2021). Model test study on deformation characteristics of a fissured expansive soil slope subjected to loading and irrigation. Applied Sciences, 11(22), 10891. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Li, Z., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Fu, L., Zhou, Y., Qian, Z., & Hu, R. (2021). Model test study on deformation characteristics of a fissured expansive soil slope subjected to loading and irrigation. "
+            },
+            {
+              "text": "Applied Sciences, 11"
+            },
+            {
+              "text": "(22), 10891."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.3390/app112210891"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "孔佑兴，唐超，王晓静，王勇，陈亚东. (2025). 基于 LSTM-季节性差分增强模型的钢结构穹顶卸载应力动态预测. 测绘通报, (S1), 104—109. DOI"
+          ],
+          "rich": [
+            {
+              "text": "孔佑兴"
+            },
+            {
+              "text": "，唐超，王晓静，王勇，陈亚东. (2025). 基于 LSTM-季节性差分增强模型的钢结构穹顶卸载应力动态预测. "
+            },
+            {
+              "text": "测绘通报"
+            },
+            {
+              "text": ", (S1), 104—109."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.13474/j.cnki.11-2246.2025.S121"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "孔佑兴，唐超，等. (2025). 基于深度学习的隧道断面扫描灰度图像渗水病害识别研究. 第十届轨道交通勘测技术交流大会，2025.03.31，北京"
+          ],
+          "rich": [
+            {
+              "text": "孔佑兴"
+            },
+            {
+              "text": "，唐超，等. (2025). 基于深度学习的隧道断面扫描灰度图像渗水病害识别研究. "
+            },
+            {
+              "text": "第十届轨道交通勘测技术交流大会，"
+            },
+            {
+              "text": "2025.03.31"
+            },
+            {
+              "text": "，北京"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "孙凯，李志清，孔佑兴，周应新，王双娇. (2023). 单轴循环荷载下冻结土石混合体动弹性模量和累积塑性应变研究. 冰川冻土, 45(6), 1730—1743. DOI"
+          ],
+          "rich": [
+            {
+              "text": "孙凯，李志清，"
+            },
+            {
+              "text": "孔佑兴"
+            },
+            {
+              "text": "，周应新，王双娇. (2023). 单轴循环荷载下冻结土石混合体动弹性模量和累积塑性应变研究. "
+            },
+            {
+              "text": "冰川冻土, 45"
+            },
+            {
+              "text": "(6), 1730—1743."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.7522/j.issn.1000-0240.2023.0131"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "kind": "subheading",
+          "title": "已完成手稿",
+          "date": "",
+          "paragraphs": []
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R. (2026). A Single Image Is All You Need: A Knowledge-Guided Multimodal AI Framework for Geological Hazard Investigation. [Under review; target journal: Advanced Engineering Informatics]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y"
+            },
+            {
+              "text": "., Li, Z., Li, L., Wang, S., & Hu, R. (2026). "
+            },
+            {
+              "text": "A Single Image Is All You Need: A Knowledge-Guided Multimodal AI Framework for Geological Hazard Investigation"
+            },
+            {
+              "text": ". [Under review;"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "target"
+            },
+            {
+              "text": " journal: Advanced Engineering Informatics]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., & Li, Z. (2026). Where are expansive soils distributed in China? Evidence from digital soil mapping. [Under review; target journal: Engineering Geology]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", & Li, Z. (2026). "
+            },
+            {
+              "text": "Where are expansive soils distributed in China? Evidence from digital soil mapping"
+            },
+            {
+              "text": ". ["
+            },
+            {
+              "text": "Under review"
+            },
+            {
+              "text": "; target journal: Engineering Geology]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Tang, C., Wang, Y., Li, Z., & Xu, Y. (2026). Image enhancement for tunnel lining surface defect recognition: A conditional diffusion-based image inpainting approach for structural occlusion removal. [Under review; target journal: Engineering Applications of Artificial Intelligence]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Tang, C., Wang, Y., Li, Z., & Xu, Y. (2026). "
+            },
+            {
+              "text": "Image enhancement for tunnel lining surface defect recognition: A conditional diffusion-based image inpainting approach for structural occlusion removal"
+            },
+            {
+              "text": ". ["
+            },
+            {
+              "text": "Under review"
+            },
+            {
+              "text": "; target journal: Engineering Applications of Artificial Intelligence]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). From sparse, asynchronous GNSS observations to continuous three-dimensional displacement fields: Multi-horizon spatiotemporal prediction for open-pit mine slopes. [Manuscript prepared; target journal: Landslides]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). "
+            },
+            {
+              "text": "From sparse, asynchronous GNSS observations to continuous three-dimensional displacement fields: Multi-horizon spatiotemporal prediction for open-pit mine slopes"
+            },
+            {
+              "text": ". [Manuscript prepared; target journal: Landslides]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., He, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). Atomistic mechanisms underlying structural hysteresis in expansive soils during wetting–drying: Evidence from molecular dynamics simulations of montmorillonite. [Manuscript prepared; target journal: Engineering Geology]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., He, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). "
+            },
+            {
+              "text": "Atomistic mechanisms underlying structural hysteresis in expansive soils during wetting–drying: Evidence from molecular dynamics simulations of montmorillonite"
+            },
+            {
+              "text": ". [Manuscript prepared; target journal: Engineering Geology]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R (2026). Ontology-guided KG-RAG for fissured expansive-soil landslides: From knowledge organization to engineering application. [Manuscript prepared; target journal: Engineering Geology]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y"
+            },
+            {
+              "text": "., Li, Z., Li, L., Wang, S., & Hu, R"
+            },
+            {
+              "text": " (2026). "
+            },
+            {
+              "text": "Ontology-guided KG-RAG for fissured expansive-soil landslides: From knowledge organization to engineering application"
+            },
+            {
+              "text": ". [Manuscript prepared; target journal: Engineering Geology]."
+            }
+          ],
+          "kind": "citation"
         }
       ]
     },
@@ -156,24 +598,24 @@
       "title": "代表性奖励",
       "entries": [
         {
-          "date": "2025",
-          "title": "优秀论文奖",
+          "title": "",
+          "date": "",
           "paragraphs": [
-            "第十届轨道交通勘测技术交流大会。"
+            "• 第十届轨道交通勘测技术交流大会优秀论文奖（2025）。"
           ]
         },
         {
+          "title": "",
           "date": "",
-          "title": "奖学金",
           "paragraphs": [
-            "国家奖学金；一等专业奖学金 7 次。"
+            "• 国家奖学金；一等专业奖学金 7 次。"
           ]
         },
         {
+          "title": "",
           "date": "",
-          "title": "数学建模竞赛",
           "paragraphs": [
-            "全国大学生数学建模竞赛二等奖；美国大学生数学建模竞赛（MCM）Honorable Mention。"
+            "• 全国大学生数学建模竞赛二等奖；美国大学生数学建模竞赛（MCM）Honorable Mention。"
           ]
         }
       ]
@@ -183,47 +625,48 @@
       "title": "研究方法与工具",
       "entries": [
         {
+          "title": "AI增强开发",
           "date": "",
-          "title": "AI 与计算",
           "paragraphs": [
-            "Python、C++、MATLAB；图神经网络、时空学习、深度学习/计算机视觉、LLM/KG-RAG、物理约束与概率建模。"
+            "Codex、ChatGPT等AI开发工具；AI辅助编程、科研工作流自动化、数据工程与科学计算；Python、C++、MATLAB及GIS、数值模拟等专业软件。"
           ]
         },
         {
+          "title": "科学人工智能",
           "date": "",
-          "title": "岩土试验与机理",
           "paragraphs": [
-            "土/岩基础试验、直剪与动三轴、边坡模型试验；XRD、SEM/EDX、MIP、BET、DIC、电阻率监测及分子模拟。"
+            "AI科研工作流设计与自动化、科研智能体与多模态大模型、知识增强与智能推理、计算机视觉与生成式AI、时空智能与地理空间机器学习、物理信息机器学习、数字土壤制图。"
           ]
         },
         {
+          "title": "岩土工程",
           "date": "",
-          "title": "现场与工程",
           "paragraphs": [
-            "地质灾害现场调查；隧道激光扫描与点云/图像处理；结构健康监测；ArcGIS、CAD、GeoStudio/ANSYS。"
+            "工程地质调查、地质灾害评价、边坡稳定性分析、岩土力学试验、微观结构表征（XRD、SEM/EDS、MIP、BET）、三维激光扫描及工程监测（GNSS、DIC）。"
           ]
         }
       ]
     },
     {
       "id": "communication",
-      "title": "科学传播与语言",
+      "title": "科学传播",
       "entries": [
         {
+          "title": "",
           "date": "",
-          "title": "科学传播",
           "paragraphs": [
-            "曾面向中国科学院官方平台撰写工程类科普文章 20 篇，累计阅读量超过 10 万。"
+            "• 曾面向中国科学院官方平台撰写工程地质类科普文章 20 篇，累计阅读量超过 20 万。"
           ]
         },
         {
+          "title": "",
           "date": "",
-          "title": "语言",
           "paragraphs": [
-            "中文（母语）；英文（可开展学术阅读、写作与交流）。"
+            "语言：中文（母语）；英语： IELTS 7.5（L 8.5 / R 7.5 / W 7.0 / S 6.5）。"
           ]
         }
       ]
     }
-  ]
+  ],
+  "source": "孔佑兴_中文学术简历.docx"
 }

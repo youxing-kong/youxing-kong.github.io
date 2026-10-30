@@ -1,5 +1,6 @@
 ---
 import {route,asset,type Lang} from '../data/site';
+import ProjectCover from './ProjectCover.astro';
 const {p,lang}=Astro.props as {p:any,lang:Lang};
 ---
-<article class="project-card"><a class="project-thumb" href={route(lang,`projects/${p.slug}`)} tabindex="-1" aria-hidden="true">{p.hero.src?<img src={asset(p.hero.src)} alt="" loading="lazy" width="600" height="300"/>:<div class="figure-placeholder"><span>{p.shortTitle}</span><small>{lang==='zh'?'研究图件待补充':'Research figure forthcoming'}</small></div>}</a><p class="status">{p.status}</p><h2><a href={route(lang,`projects/${p.slug}`)}>{p.title}</a></h2><p>{p.question}</p><a class="text-link" href={route(lang,`projects/${p.slug}`)}>{lang==='zh'?'查看项目':'View project'} <span aria-hidden="true">→</span></a></article>
+<article class={`project-card theme-${p.theme||'slate'}`}><a class="project-thumb" href={route(lang,`projects/${p.slug}`)} tabindex="-1" aria-hidden="true"><ProjectCover p={p} lang={lang}/></a><p class="status">{p.status}</p><h2><a href={route(lang,`projects/${p.slug}`)}>{p.title}</a></h2><p>{p.question}</p><a class="text-link" href={route(lang,`projects/${p.slug}`)}>{lang==='zh'?'研究问题与方法':'Explore the research'} <span aria-hidden="true">→</span></a></article>

@@ -6,7 +6,7 @@
     "Geotechnical &",
     "Geohazard Systems"
   ],
-  "summary": "Understanding and forecasting evolving geosystems from sparse observations through data, physics and domain knowledge.",
+  "summary": "Connecting field observations, experiments and simulations, and domain knowledge to characterize geotechnical and geohazard systems, understand their evolution, and explore reliable prediction.",
   "role": "PhD Researcher in Geological Engineering",
   "location": "Beijing, China",
   "question": "How can we understand and forecast the evolution and failure of complex geosystems from sparse, heterogeneous and multiscale observations?",
@@ -104,44 +104,44 @@
   "programs": [
     {
       "id": 1,
-      "title": "Learning Geosystems from Sparse Observations",
-      "subtitle": "Sparse Observations → Continuous System States",
-      "summary": "Developing spatiotemporal learning approaches to reconstruct and forecast evolving geosystems from sparse monitoring networks.",
+      "title": "Learning system states from sparse and heterogeneous observations",
+      "subtitle": "Field observations → spatial representation → system state",
+      "summary": "Connecting slope monitoring, field imagery, and regional environmental information to study how incomplete observations support continuous representations, state identification, and reliable forecasting.",
       "status": "Ongoing Research",
       "keywords": [
-        "Sparse sensing",
         "GNSS",
-        "Graph learning",
-        "Spatiotemporal learning",
-        "Field reconstruction"
+        "Multimodal imagery",
+        "Spatial representation",
+        "Digital soil mapping",
+        "Uncertainty"
       ]
     },
     {
       "id": 2,
-      "title": "Learning Geosystem Dynamics with Data, Physics & Knowledge",
-      "subtitle": "Data + Physics + Knowledge → System Dynamics",
-      "summary": "Integrating observations, physical principles and domain knowledge to move beyond purely data-driven prediction toward scientific learning of geosystem dynamics.",
+      "title": "Connecting multiscale mechanisms, physical insight and domain knowledge",
+      "subtitle": "Minerals and materials → engineering processes → evidence",
+      "summary": "Combining mineral simulation, material and slope experiments, and geological knowledge organization to develop cross-scale understanding and traceable scientific interpretations.",
       "status": "Developing Research Program",
       "keywords": [
-        "Scientific ML",
-        "Physics-informed AI",
-        "Multifidelity",
-        "Knowledge-guided AI",
-        "Scientific reasoning"
+        "Molecular simulation",
+        "Fracture mechanics",
+        "Model tests",
+        "Ontology",
+        "Knowledge graphs"
       ]
     },
     {
       "id": 3,
-      "title": "From Progressive Deformation to Failure",
-      "subtitle": "Deformation → State Transition → Failure",
-      "summary": "Investigating whether AI can learn precursors, state transitions and uncertainty associated with the progressive evolution of geotechnical and geohazard systems toward failure.",
+      "title": "From reliable forecasts towards failure understanding and decisions",
+      "subtitle": "System evolution → uncertainty → decision evidence",
+      "summary": "Studying long-term evolution and anomalous change while distinguishing observations from inference, with the longer-term goal of connecting trustworthy prediction, risk understanding, and engineering decisions.",
       "status": "Long-term Research Direction",
       "keywords": [
         "Long-term forecasting",
+        "Applicability",
+        "Evidence traceability",
         "Failure precursors",
-        "State transitions",
-        "Uncertainty",
-        "Early warning"
+        "Decision support"
       ]
     }
   ],

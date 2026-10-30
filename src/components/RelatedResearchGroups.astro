@@ -1,0 +1,14 @@
+---
+import publications from '../content/publications/publications.json';
+import {text,type Lang} from '../data/site';
+const {lang}=Astro.props as {lang:Lang};
+const groups=[
+ {title:text(lang,'Special-soil mechanics and data-driven characterization','特殊土力学与数据驱动表征'),question:text(lang,'How can experiments and data-driven models characterize deformation and failure across material and loading conditions?','如何结合试验与数据驱动方法，表征不同材料和荷载条件下的变形与破坏？'),ids:['frozen-soil-ml-2025','creep-damage-2026','loess-tensile-2024','cyclic-frozen-soil-2023']},
+ {title:text(lang,'Structural monitoring and digital inspection','结构监测与数字化检测'),question:text(lang,'How can monitoring records and geometric observations support structural response analysis and construction inspection?','如何利用监测记录与几何观测，支持结构响应分析与施工质量检测？'),ids:['dome-stress-2025','laser-bim-2025']}
+];
+---
+<section class="section related-research-groups">
+ <h2>{text(lang,'Related collaborative research','相关合作研究')}</h2>
+ <p class="projects-note">{text(lang,'Published collaborative work across related research topics.','围绕相关研究主题开展的已发表合作成果。')}</p>
+ <div class="related-groups-grid">{groups.map(g=><article><h3>{g.title}</h3><p>{g.question}</p><ul>{g.ids.map(id=>{const p=publications.find(p=>p.id===id)!;return <li><span class="related-meta">{p.year} · {p.id==='laser-bim-2025'?text(lang,'Published book chapter','已发表书籍章节'):text(lang,'Published journal article','已发表期刊论文')}</span><a href={`https://doi.org/${p.doi}`}>{p.title} ↗</a><span class="related-venue">{p.venue}</span></li>})}</ul></article>)}</div>
+</section>

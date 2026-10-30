@@ -43,16 +43,16 @@ for(const file of html){
  }
 }
 const slugs=fs.readdirSync('src/content/projects/en').filter(f=>f.endsWith('.json'));
-for(const slug of slugs){assert.ok(fs.existsSync('src/content/projects/zh/'+slug));for(const lang of ['en','zh']){const p=JSON.parse(fs.readFileSync(`src/content/projects/${lang}/${slug}`));for(const key of ['title','status','question','context','progress','direction','outputs'])assert.ok(p[key],`${slug}: ${key}`);assert.ok(p.approach.length);}}
+for(const slug of slugs){assert.ok(fs.existsSync('src/content/projects/zh/'+slug));for(const lang of ['en','zh']){const p=JSON.parse(fs.readFileSync(`src/content/projects/${lang}/${slug}`));for(const key of ['title','summary','question'])assert.ok(p[key],`${slug}: ${key}`);assert.ok(p.approvedSections.length);}}
 assert.ok(fs.statSync('dist/cv/CV_Youxing_Kong_ZH.docx').size>1000);
 for(const lang of ['en','zh']){
  const cv=JSON.parse(fs.readFileSync(`src/content/${lang}/cv.json`));
  const body=fs.readFileSync(`dist/${lang==='zh'?'zh/':''}cv/index.html`,'utf8');
- const pdf=`CV_Youxing_Kong_${lang.toUpperCase()}.pdf`;
+ const pdf=lang==='en'?'Youxing_Kong_CV_English_20261030.pdf':'Youxing_Kong_CV_Chinese_20261030.pdf';
  assert.ok(body.includes(`href="${base}/cv/${pdf}" download`),`Correct CV download for ${lang}`);
  assert.equal(fs.readFileSync(`dist/cv/${pdf}`).subarray(0,5).toString(),'%PDF-');
  for(const section of cv.sections)assert.ok(body.includes(`id="${section.id}"`),`CV section ${section.id}`);
- assert.equal((body.match(/class="cv-entry(?: no-date)?"/g)||[]).length,cv.sections.reduce((sum,s)=>sum+s.entries.length,0));
+ assert.equal((body.match(/class="cv-entry(?: no-date)?"/g)||[]).length,cv.sections.reduce((sum,s)=>sum+s.entries.filter(e=>!['citation','subheading'].includes(e.kind)).length,0));
 }
 assert.equal((fs.readFileSync('dist/sitemap.xml','utf8').match(/<url>/g)||[]).length,10+slugs.length*2);
 assert.equal(html.length,11+slugs.length*2);

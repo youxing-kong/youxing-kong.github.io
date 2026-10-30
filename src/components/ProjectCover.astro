@@ -1,0 +1,9 @@
+---
+import {asset,text,type Lang} from '../data/site';
+const {p,lang,large=false}=Astro.props as {p:any,lang:Lang,large?:boolean};
+const media=p.cover?.src?p.cover:p.hero;
+---
+<div class:list={['editorial-cover',`theme-${p.theme||'slate'}`,{'is-large':large,'has-image':Boolean(media?.src),'is-concept':Boolean(media?.editorial)}]}>
+{media?.src ? (large ? <a href={asset(media.src)} class="cover-image-link" aria-label={text(lang,'Open cover image','查看封面原图')}><img src={asset(media.src)} alt={media.alt} loading="eager" width={media.width||undefined} height={media.height||undefined}/></a> : <img src={asset(media.src)} alt={media.alt} loading="lazy" width={media.width||undefined} height={media.height||undefined}/>) : <div class="cover-type" aria-hidden="true"><span class="cover-kicker">YOUXING KONG · RESEARCH</span><span class="cover-index">{String(p.order).padStart(2,'0')}</span><span class="cover-title">{p.shortTitle}</span><span class="cover-tags">{p.tags?.join(' / ')}</span></div>}
+
+</div>

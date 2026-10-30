@@ -1,0 +1,31 @@
+---
+import {text,type Lang} from '../data/site';
+const {lang}=Astro.props as {lang:Lang};
+---
+<dialog class="image-lightbox" aria-label={text(lang,'Image viewer','图像查看器')}>
+ <div class="lightbox-toolbar"><span class="lightbox-caption"></span><div><button type="button" data-zoom="out" aria-label={text(lang,'Zoom out','缩小')}>−</button><button type="button" data-zoom="reset">{text(lang,'Fit','适应窗口')}</button><button type="button" data-zoom="in" aria-label={text(lang,'Zoom in','放大')}>+</button><button type="button" data-close aria-label={text(lang,'Close image','关闭图片')}>×</button></div></div>
+ <div class="lightbox-stage"><img class="lightbox-image" alt=""/></div>
+</dialog>
+<script>
+const dialog=document.querySelector<HTMLDialogElement>('.image-lightbox');
+if(dialog){
+ const image=dialog.querySelector<HTMLImageElement>('.lightbox-image')!;
+ const stage=dialog.querySelector<HTMLElement>('.lightbox-stage')!;
+ const caption=dialog.querySelector<HTMLElement>('.lightbox-caption')!;
+ let zoom=1,fit=1;
+ const draw=()=>{image.style.width=`${image.naturalWidth*fit*zoom}px`;image.style.height='auto';};
+ const reset=()=>{zoom=1;fit=Math.min(1,(stage.clientWidth-32)/image.naturalWidth,(stage.clientHeight-32)/image.naturalHeight);draw();};
+ document.querySelectorAll<HTMLButtonElement>('.figure-zoom').forEach(button=>button.addEventListener('click',()=>{
+  image.onload=reset;image.alt=button.dataset.imageAlt||'';caption.textContent=image.alt;image.src=button.dataset.imageSrc!;dialog.showModal();document.body.style.overflow='hidden';if(image.complete)reset();
+ }));
+ dialog.querySelector('[data-close]')?.addEventListener('click',()=>dialog.close());
+ dialog.addEventListener('close',()=>{document.body.style.overflow='';});
+ dialog.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.zoom==='reset')reset();else {zoom=Math.max(.25,Math.min(8,zoom*(button.dataset.zoom==='in'?1.4:1/1.4)));draw();}}));
+ dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+ stage.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(.25,Math.min(8,zoom*(e.deltaY<0?1.15:1/1.15)));draw();},{passive:false});
+}
+document.querySelectorAll<HTMLVideoElement>('.continuous-demo').forEach(video=>{
+ video.muted=true;
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches){video.autoplay=false;video.pause();}else video.play().catch(()=>{});
+});
+</script>

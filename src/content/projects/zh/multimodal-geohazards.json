@@ -1,43 +1,101 @@
 {
-  "title": "多模态 AI 驱动的地质灾害调查与信息提取",
-  "subtitle": "从现场观测中提取结构化地质信息",
-  "question": "多模态人工智能能否从真实现场影像中提取结构化地质信息，并辅助地质灾害初步研判？",
-  "context": "面向工程与地质灾害调查场景中的现场照片和地质观测。",
-  "approach": [
-    "现场影像",
-    "多模态 AI",
-    "结构化信息提取",
-    "评估",
-    "灾害初步研判"
-  ],
-  "progress": "研究持续推进，重点关注可复现性、结构化输出、评价与领域一致性。",
-  "direction": "融合现场影像、空间信息、地质背景与领域知识，探索可扩展的地质调查方式。",
-  "next": "结合地质观测与领域一致性要求，评价结构化输出与初步研判。",
-  "outputs": "研究资产可包括代码、提示词、评价脚本、标签及模型输出。公开版本待补充。",
   "lang": "zh",
   "slug": "multimodal-geohazards",
-  "order": 2,
-  "shortTitle": "Multimodal AI",
   "program": 2,
   "status": "进行中研究",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "tags": [
+    "现场影像",
+    "空间理解",
+    "调查辅助"
+  ],
+  "theme": "earth",
+  "order": 2,
+  "title": "多模态大模型赋能道路沿线地质灾害调查",
+  "subtitle": "智能地质调查",
+  "shortTitle": "多模态大模型赋能道路沿线地质灾害调查",
+  "summary": "道路沿线地质灾害调查积累了大量平面影像，但灾害特征与风险信息的整理、坡体几何形态的获取仍需大量人工工作。研究将多模态大模型引入现场影像解译，分步提取灾种、调查指标与风险等级，并结合影像三维重建获取坡体几何信息。道路巡检演示呈现沿线灾害位置与等级，三维建模补充坡体表面和几何形态的表达。",
+  "question": "道路沿线地质灾害调查积累了大量平面影像，但灾害特征与风险信息的整理、坡体几何形态的获取仍需大量人工工作。",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "科学问题与方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "道路沿线地质灾害调查积累了大量平面影像，但灾害特征与风险信息的整理、坡体几何形态的获取仍需大量人工工作。研究将多模态大模型引入现场影像解译，分步提取灾种、调查指标与风险等级，并结合影像三维重建获取坡体几何信息。道路巡检演示呈现沿线灾害位置与等级，三维建模补充坡体表面和几何形态的表达。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-2-figure-1.png",
+            "alt": "地质灾害影像调查框架",
+            "label": "图1 地质灾害影像调查框架",
+            "caption": "现场影像、背景资料和工程调查字段共同进入处理流程，输出灾种、依据、指标与等级等结构化记录。",
+            "width": 1269,
+            "height": 1214
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-2-figure-2.png",
+            "alt": "分步调查与结构化输出",
+            "label": "图2 分步调查与结构化输出",
+            "caption": "调查流程识别灾种与亚型，提取通用和专用字段，并补充环境资料。三维建模部分通过多位置影像中的同名点建立视角间联系，重建坡体表面并提取几何信息。",
+            "width": 1269,
+            "height": 1137
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "结果",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/road-inspection-continuous.gif",
+            "alt": "道路巡检与三维建模演示",
+            "label": "图3 道路巡检与三维建模演示",
+            "caption": "沿线影像展示岩坡位置与等级标记，多位置摄影示意说明不同视角的关联，影像与模型的同视角对照呈现坡体形态和纹理。",
+            "width": 640,
+            "height": 360,
+            "kind": "gif",
+            "poster": "images/projects/approved-20261030/road-inspection-zh-poster.jpg",
+            "videoSrc": "images/projects/approved-20261030/road-inspection-zh.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "工程认识",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "多模态大模型将现场影像整理为可核对的调查记录，摄影三维重建补充坡体形态与几何信息，两者结合支持沿线灾害调查与空间复核。"
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/01-multimodal-investigation.webp",
+    "alt": "多模态大模型赋能道路沿线地质灾害调查",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "A Single Image Is All You Need: A Knowledge-Guided Multimodal AI Framework for Geological Hazard Investigation",
+      "authors": "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R.",
+      "year": 2026,
+      "venue": "",
+      "status": "under-review",
+      "statusLabel": "审稿中",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

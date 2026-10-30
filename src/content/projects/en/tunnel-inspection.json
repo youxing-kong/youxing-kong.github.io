@@ -1,43 +1,119 @@
 {
-  "title": "Intelligent Analysis of Real-World Tunnel Inspection Data",
-  "subtitle": "Learning infrastructure condition from engineering inspection",
-  "question": "How can AI extract reliable infrastructure-condition information from complex, noisy and partially occluded tunnel inspection data?",
-  "context": "Mobile laser scanning, grayscale tunnel imagery, seepage inspection, structural surface defects, point clouds and tunnel geometry.",
-  "approach": [
-    "Image enhancement",
-    "YOLO-based defect detection",
-    "Generative image completion",
-    "Point-cloud and image processing",
-    "Structural parameter extraction"
-  ],
-  "progress": "The CV lists research on seepage-defect recognition from grayscale tunnel cross-section scanning images, alongside engineering experience in mobile laser scanning and structural-parameter analysis.",
-  "direction": "This work represents the transition between real-world engineering monitoring and data-driven AI research.",
-  "next": "Continue developing reliable condition-information extraction from complex engineering observations.",
-  "outputs": "The related paper is listed in the CV. No public DOI, code or dataset link was supplied.",
   "lang": "en",
   "slug": "tunnel-inspection",
-  "order": 5,
-  "shortTitle": "Tunnel Inspection",
   "program": 1,
-  "status": "Published & Continuing",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "status": "Published work & ongoing research",
+  "tags": [
+    "Inspection imagery",
+    "Occlusion removal",
+    "Defect recognition"
+  ],
+  "theme": "blue",
+  "order": 6,
+  "title": "Occlusion removal and image enhancement for tunnel linings",
+  "subtitle": "Intelligent infrastructure inspection",
+  "shortTitle": "Occlusion removal and image enhancement for tunnel linings",
+  "summary": "Occlusions from pipelines, equipment, and other objects in tunnel-lining scans obscure surface textures and hinder the identification of visible defects such as water leakage. This study constructs paired data using real scans and occluding objects, removes occlusions and reconstructs lining textures through conditional reverse diffusion and local soft blending, and examines the effects of enhanced images on downstream defect detection. The results demonstrate texture and joint restoration under different occlusion conditions, as well as changes in water-leakage detection confidence following image enhancement.",
+  "question": "Occlusions from pipelines, equipment, and other objects in tunnel-lining scans obscure surface textures and hinder the identification of visible defects such as water leakage.",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "Research question and methods",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "Occlusions from pipelines, equipment, and other objects in tunnel-lining scans obscure surface textures and hinder the identification of visible defects such as water leakage. This study constructs paired data using real scans and occluding objects, removes occlusions and reconstructs lining textures through conditional reverse diffusion and local soft blending, and examines the effects of enhanced images on downstream defect detection. The results demonstrate texture and joint restoration under different occlusion conditions, as well as changes in water-leakage detection confidence following image enhancement."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-1.png",
+            "alt": "Paired data constructed from real scans and occluding objects",
+            "label": "Figure 1 Paired data constructed from real scans and occluding objects",
+            "caption": "Real occluding objects are combined with visible lining backgrounds to form paired samples, retaining a known background reference for the designated covered regions.",
+            "width": 1067,
+            "height": 1192
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-2.png",
+            "alt": "Conditional reverse diffusion and local soft blending",
+            "label": "Figure 2 Conditional reverse diffusion and local soft blending",
+            "caption": "The encoder and decoder predict noise, and conditional reverse diffusion progressively generates the image. A soft mask blends the original and generated images to complete designated regions while preserving the unoccluded background.",
+            "width": 5127,
+            "height": 4058
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Results",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-3.png",
+            "alt": "Results of structural occlusion removal and image enhancement",
+            "label": "Figure 3 Results of structural occlusion removal and image enhancement",
+            "caption": "The complete panels a–h show paired inputs and outputs for occlusions caused by pipelines, cables, personnel, and electrical equipment. The results show continuity in joints, textures, and grayscale values after occlusion removal.",
+            "width": 976,
+            "height": 1055
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Engineering insights",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "The illustrated water-leakage target receives a higher prediction confidence after occlusion removal, indicating that image enhancement improves the visibility of defect features at this location and can provide clearer input for downstream detection."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-6-figure-4.png",
+            "alt": "Water-leakage detection before and after image inpainting",
+            "label": "Figure 4 Water-leakage detection before and after image inpainting",
+            "caption": "The left image uses the occluded input, and the right image uses the inpainted input. Green boxes and numbers indicate detection regions and prediction confidence, respectively. After inpainting, the prediction confidence for the illustrated water-leakage target increases from 0.62 to 0.87, and the detection box adjusts to the visible texture.",
+            "width": 1304,
+            "height": 635
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/03-tunnel-inspection.webp",
+    "alt": "Occlusion removal and image enhancement for tunnel linings",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "Deep learning-based recognition of water leakage defects in tunnel cross-sectional scanning grayscale images",
+      "authors": "Kong, Y., Tang, C., et al.",
+      "year": 2025,
+      "venue": "10th Conference on Rail Transit Surveying and Investigation Technology, March 31, 2025, Beijing. (in Chinese)",
+      "status": "conference-paper",
+      "statusLabel": "Conference paper",
+      "url": null,
+      "doi": null
+    },
+    {
+      "title": "Image enhancement for tunnel lining surface defect recognition: A conditional diffusion-based image inpainting approach for structural occlusion removal",
+      "authors": "Kong, Y., Tang, C., Wang, Y., Li, Z., & Xu, Y.",
+      "year": 2026,
+      "venue": "",
+      "status": "under-review",
+      "statusLabel": "Under review",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

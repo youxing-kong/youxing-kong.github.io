@@ -1,40 +1,36 @@
 {
   "name": "Youxing Kong",
-  "identity": "Scientific AI for Geotechnical & Geohazard Systems",
-  "role": "PhD Researcher in Geological Engineering",
-  "location": "Beijing, China",
-  "email": "kongyouxing@126.com",
-  "summary": "My research focuses on scientific AI for complex geotechnical and geohazard systems: learning system states from sparse, heterogeneous and multiscale observations, integrating physical principles and domain knowledge to understand evolution, and investigating failure forecasting, uncertainty analysis and trustworthy engineering decisions.",
-  "spine": "Observe → Understand → Predict → Decide",
-  "approach": "Field × Mechanics × AI",
+  "identity": "AI for Science in Complex Geotechnical and Geohazard Systems | Chinese Academy of Sciences, Beijing",
+  "email": "kongyouxing21@mails.ucas.ac.cn",
+  "overview": [
+    "Research focuses on AI for science in complex geotechnical and geohazard systems: inferring system states from sparse, heterogeneous, multiscale observations; combining physical laws and domain knowledge to learn evolutionary mechanisms; and advancing failure prediction, uncertainty analysis, and reliable engineering decision-making.",
+    "Research pathway: Observation → Understanding → Prediction → Decision-making | Approach: Field engineering × Geotechnical mechanics and testing × AI for science"
+  ],
   "sections": [
     {
       "id": "education",
       "title": "Education",
       "entries": [
         {
-          "date": "2025.09 – present",
-          "title": "PhD Researcher in Geological Engineering",
+          "title": "PhD Student in Geological Engineering — Institute of Geology and Geophysics, Chinese Academy of Sciences",
+          "date": "Sep 2025–Present",
           "paragraphs": [
-            "Institute of Geology and Geophysics, Chinese Academy of Sciences / University of Chinese Academy of Sciences.",
-            "Research focuses on scientific AI for complex geotechnical and geohazard systems, including spatiotemporal learning, physics- and knowledge-guided modeling, long-term deformation forecasting and failure forecasting."
+            "• Research focuses on AI for science in complex geotechnical and geohazard systems, including spatiotemporal learning, physics- and knowledge-guided modelling, long-term deformation forecasting, and failure prediction."
           ]
         },
         {
-          "date": "2021 – 2024",
-          "title": "Master of Engineering in Geological Engineering",
+          "title": "Master of Engineering in Geological Engineering — Institute of Geology and Geophysics, Chinese Academy of Sciences",
+          "date": "2021–2024",
           "paragraphs": [
-            "Institute of Geology and Geophysics, Chinese Academy of Sciences / University of Chinese Academy of Sciences.",
-            "GPA 3.66. Thesis: Mechanisms of Landslide Hazards in Fissured Expansive Soils.",
-            "Investigated fissure propagation and landslide instability through fracture-mechanics experiments, DIC and resistivity monitoring, microstructural characterization, slope model tests and field-based mechanism analysis."
+            "GPA: 3.66 | Thesis: Mechanisms of landslide initiation in fissured expansive soils",
+            "• Investigated fissure propagation and slope failure in expansive soils through fracture mechanics tests, digital image correlation (DIC), electrical resistivity monitoring, microstructural characterisation, slope model tests, and field-based landslide mechanism analysis."
           ]
         },
         {
-          "date": "2017 – 2021",
-          "title": "Bachelor of Engineering in Civil Engineering",
+          "title": "Bachelor of Engineering in Civil Engineering — China University of Geosciences (Beijing)",
+          "date": "2017–2021",
           "paragraphs": [
-            "China University of Geosciences (Beijing).",
-            "GPA 3.68. Ranked 2 of 78 students (top 3%)."
+            "GPA: 3.68 | Class rank: 2/78 (top 3%)"
           ]
         }
       ]
@@ -44,110 +40,535 @@
       "title": "Professional Experience",
       "entries": [
         {
-          "date": "2024.07 – present",
-          "title": "Research and Engineering",
+          "title": "Engineer (Intermediate Professional Title), Beijing Urban Construction Exploration & Surveying Design Research Institute Co., Ltd.",
+          "date": "Jul 2024–Present",
           "paragraphs": [
-            "Urban Safety Research Institute, Beijing Urban Construction Exploration & Surveying Design Research Institute Co., Ltd.",
-            "Work on urban infrastructure safety monitoring, intelligent inspection and research, including mobile scanning and surface-defect inspection of metro tunnels, building structural monitoring and municipal pipeline surveys.",
-            "Apply image recognition, generative image processing and time-series forecasting to engineering monitoring data, and contribute to research papers, technical reports and AI-related project proposals."
+            "• Conduct safety monitoring, intelligent inspection, and research for urban infrastructure, including mobile scanning and surface defect inspection of metro tunnels, structural monitoring, and municipal utility surveys.",
+            "• Apply image recognition, generative image processing, and time-series forecasting to engineering monitoring data; contribute to research papers, technical reports, and AI-related research proposals."
           ]
         },
         {
-          "date": "2023.10 – present",
-          "title": "Co-founder, Kulianggong Studio",
+          "title": "Entrepreneurship, Kulianggong Studio",
+          "date": "Oct 2023–Present",
           "paragraphs": [
-            "Co-founded and operate an AI-driven research and knowledge studio, exploring generative AI for research support, information synthesis, data analysis, scientific communication and knowledge management.",
-            "Design workflows from task analysis and AI workflow development to delivery, exploring lightweight, AI-assisted knowledge services and professional practices."
+            "• Co-founded and operate an AI-driven research and knowledge studio, exploring generative AI applications in research support, data analysis, research communication, and knowledge management.",
+            "• Design end-to-end processes from task analysis and AI workflow development to deliverable production, exploring lean, AI-enhanced knowledge services and professional workflows."
           ]
         }
       ]
     },
     {
-      "id": "research-experience",
-      "title": "Research Experience",
+      "id": "research-projects",
+      "title": "Research Projects",
       "entries": [
         {
-          "date": "2020 – 2024",
-          "title": "Multiscale Deformation, Failure and Landslide Instability in Fissured Expansive Soils",
+          "title": "Key Participant, National Key R&D Program of China: New Materials and Technologies for the Prevention and Control of Expansive-Soil Landslides and Engineered Slopes (2019YFC1509903)",
+          "date": "Oct 2020–Jul 2024",
           "paragraphs": [
-            "Investigated how fissures affect the strength, deformation and landslide instability of expansive soils. Combined fracture-mechanics experiments, DIC/resistivity monitoring, microstructural characterization and slope model testing to explain fissure propagation and instability across scales."
+            "• Investigate the hydro-mechanical behaviour of expansive soils, slope failure mechanisms, and engineering mitigation techniques, with emphasis on the effects of moisture variation and soil strength degradation on slope stability."
           ]
         },
         {
-          "date": "2024 – 2025",
-          "title": "Tunnel Surface-Defect Recognition from Engineering Monitoring Data",
+          "title": "Key Participant, Second Tibetan Plateau Scientific Expedition and Research Program: Geohazards and Risks Associated with Major Engineering Disturbances in the South Asia Corridor–Himalayas–River and Lake Headwater Regions (2019QZKK0904)",
+          "date": "Sep 2022–Oct 2024",
           "paragraphs": [
-            "Worked on deep-learning recognition, generative image completion and time-series forecasting using tunnel surface-defect and large-structure monitoring data, exploring state extraction, anomaly recognition and evolution forecasting."
+            "• Investigate the occurrence, spatial variability, and risk formation mechanisms of geohazards along major engineering corridors on the Tibetan Plateau; explore geohazard investigation and risk assessment methods for complex mountainous terrain."
           ]
         },
         {
-          "date": "2025 – present",
-          "title": "Spatiotemporal Slope Deformation Learning and Long-term Forecasting from Sparse Observations",
+          "title": "Key Participant, National Natural Science Foundation of China: Microscale Controls on Shallow Landslides in Multiscale Fissured Expansive Soils (42572368)",
+          "date": "Jan 2026–Present",
           "paragraphs": [
-            "With STAC-GNSS as a core project, study how sparse GNSS networks can support learning of continuous slope deformation fields and evolution over multiple timescales, with further work on multisource fusion, spatial generalization and long-term forecasting."
+            "• Investigate microstructural evolution, fissure development, and multiscale hydro-mechanical coupling in expansive soils under wetting–drying cycles to elucidate the microscale controls on shallow landslides."
           ]
         },
         {
-          "date": "2026 – present",
-          "title": "Physics- and Knowledge-guided Scientific AI for Complex Geosystems",
+          "title": "Participant, National Natural Science Foundation of China: Investigation of the In-Service Structural Performance of Metro Shield Tunnels Using Large-Scale Data (52378385)",
+          "date": "Jan 2024–Present",
           "paragraphs": [
-            "Explore the integration of data, physics and knowledge for geosystem evolution and failure, extending data-driven learning toward physical constraints, multifidelity methods, uncertainty quantification and knowledge-augmented reasoning."
+            "• Investigate the evolution of in-service structural conditions, surface defect characteristics, and recognition reliability in shield tunnels, focusing on structural safety assessment under complex environmental conditions."
+          ]
+        },
+        {
+          "title": "Participant, National Key R&D Program of China: Integrated Slope Protection and Ecological Restoration in Areas Disturbed by Major Hydropower Projects in the Upper Reaches of Southwestern China’s Rivers (2024YFF1307800)",
+          "date": "Jul 2025–Present",
+          "paragraphs": [
+            "• Investigate slope deformation and failure mechanisms, geohazard risk evolution, and the interaction between engineering protection and ecological restoration under disturbances caused by major hydropower projects."
           ]
         }
       ]
     },
     {
       "id": "field-practice",
-      "title": "Engineering and Field Practice",
+      "title": "Engineering Practice",
       "entries": [
         {
-          "date": "2020.07 – 2020.09",
-          "title": "Atmospheric Deposition Monitoring and Analysis",
+          "title": "Shandong Institute of Geophysical and Geochemical Exploration — Atmospheric Deposition Monitoring and Analysis",
+          "date": "Jul–Sep 2020",
           "paragraphs": [
-            "Shandong Institute of Geophysical and Geochemical Exploration. Participated in field monitoring, sample collection and analysis of atmospheric deposition, gaining experience in environmental geochemical surveys, sample quality control and environmental data acquisition."
+            "• Participated in field monitoring, sampling, and analysis of atmospheric deposition, gaining experience in environmental geochemical surveys, sample quality control, and field data acquisition."
           ]
         },
         {
-          "date": "2021.09 – 2021.12",
-          "title": "MICP Ecological Slope Stabilization Demonstration, Chuxiong, Yunnan",
+          "title": "Chuxiong, Yunnan — MICP-Based Ecological Slope Stabilisation Demonstration",
+          "date": "Sep–Dec 2021",
           "paragraphs": [
-            "Participated in a demonstration using phosphogypsum resource recovery and microbially induced carbonate precipitation (MICP) for ecological slope stabilization, including microbial cultivation, material mixing, mechanical hydroseeding, planting and site construction."
+            "• Participated in a demonstration of phosphogypsum utilisation and ecological slope stabilisation using microbially induced calcium carbonate precipitation (MICP), including microbial cultivation, material mixing, mechanised spraying, planting, and site construction."
           ]
         },
         {
-          "date": "2021 – 2024",
-          "title": "Roadside Geohazard Investigation and Assessment, Second Tibetan Plateau Scientific Expedition",
+          "title": "Yelu Expressway, Henan — Coal Gangue as Subgrade Fill",
+          "date": "Mar–Jun 2023",
           "paragraphs": [
-            "Combined remote-sensing interpretation with field surveys of landslides, rockfalls and debris flows along more than 2,000 km of roads. Identified 232 hazard sites and contributed to regional risk zoning."
+            "• Conducted compaction, vibratory compaction, and California bearing ratio (CBR) tests on coal gangue with different particle sizes and gradations; assessed its suitability as subgrade fill using a trial road section."
           ]
         },
         {
-          "date": "2023.03 – 2023.06",
-          "title": "Coal Gangue as Roadbed Fill, Yelu Expressway, Henan",
+          "title": "Zhangjiawan Depot — Unloading Monitoring of a Large-Span Steel Dome",
+          "date": "Aug 2024",
           "paragraphs": [
-            "Conducted compaction, vibratory compaction and California bearing ratio (CBR) tests on coal gangue with different particle sizes and gradations, and evaluated its suitability as roadbed fill using a trial section."
+            "• Participated in strain sensor installation on critical members, continuous stress and temperature monitoring, and data analysis to support safety control during staged unloading of a large-span steel dome."
           ]
         },
         {
-          "date": "2024.08",
-          "title": "Unloading Monitoring of the Large Steel Dome at Zhangjiawan Depot",
+          "title": "Beijing Metro — Fire-Door Inspection and Surveying of Tunnel Cross-Passages",
+          "date": "Apr 2025",
           "paragraphs": [
-            "Participated in strain-sensor deployment on key members, continuous stress and temperature monitoring, and data analysis to support safety control during staged unloading."
+            "• Participated in fire-door inspection, engineering surveying, and condition data collection for tunnel cross-passages during maintenance windows and night shifts, gaining experience in field coordination and inspection in complex underground environments."
           ]
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "title": "Selected Publications and Manuscripts",
+      "entries": [
+        {
+          "kind": "subheading",
+          "title": "Papers, conference contributions and preprints",
+          "date": "",
+          "paragraphs": []
         },
         {
-          "date": "2024.10 – 2025.08",
-          "title": "Mobile Scanning and Surface-Defect Monitoring of Urban Rail Tunnels",
+          "title": "",
+          "date": "",
           "paragraphs": [
-            "Participated in mobile laser scanning, seepage and surface-defect inspection, and point-cloud/grayscale-image processing. Analyzed cross-sections, convergence, segment dislocation and clearance infringement."
-          ]
+            "Kong, Y., Li, Z., Sun, K., Qi, Z., & Hu, R. (2024). Study on the extension mechanism of fissures in expansive soil based on fracture mechanics test method. Engineering Geology, 343, 107778. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., Sun, K., Qi, Z., & Hu, R. (2024). "
+            },
+            {
+              "text": "Study on the extension mechanism of fissures in expansive soil based on fracture mechanics test method. "
+            },
+            {
+              "text": "Engineering Geology, 343"
+            },
+            {
+              "text": ", 107778."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1016/j.enggeo.2024.107778"
+            }
+          ],
+          "kind": "citation"
         },
         {
-          "date": "2025.04",
-          "title": "Fire-door Inspection and Surveying in Metro Cross-passages",
+          "title": "",
+          "date": "",
           "paragraphs": [
-            "Participated in on-site fire-door inspection, engineering surveying and condition-data collection during operational maintenance windows and night shifts, gaining experience in inspection and field coordination in complex underground spaces."
-          ]
+            "Kong, Y., Li, Z., Qi, Z., Sun, K., & Hu, R. (2024). Study on sliding surface characteristics of expansive soil based on quantitative evaluation of microstructure. Research Square [Preprint]. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., Qi, Z., Sun, K., & Hu, R. (2024). Study on sliding surface characteristics of expansive soil based on quantitative evaluation of microstructure. "
+            },
+            {
+              "text": "Research Square"
+            },
+            {
+              "text": " [Preprint]."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.21203/rs.3.rs-4275076/v1"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Wang, S., Li, Z., Li, L., Kong, Y., Su, W., Qi, Z., Hu, R., & Qi, S. (2026). A nonlinear viscoelastic-plastic creep damage model of frozen soil-rock mixture under different temperatures and block conditions: Unique sights from the resistivity perspective. Engineering Geology, 370, 108831. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Wang, S., Li, Z., Li, L., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Su, W., Qi, Z., Hu, R., & Qi, S. (2026). A nonlinear viscoelastic-plastic creep damage model of frozen soil-rock mixture under different temperatures and block conditions: Unique sights from the resistivity perspective. "
+            },
+            {
+              "text": "Engineering Geology, 370"
+            },
+            {
+              "text": ", 108831."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1016/j.enggeo.2026.108831"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Sun, K., Li, Z., Wang, H., Kong, Y., Wang, S., Zhou, Y., & Hu, R. (2025). Integrated machine learning using autoencoder and multilayer perceptron approaches to predict stress-strain curves of frozen soil-rock mixtures. International Journal of Geomechanics, 25(10), 04025229. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Sun, K., Li, Z., Wang, H., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Wang, S., Zhou, Y., & Hu, R. (2025). Integrated machine learning using autoencoder and multilayer perceptron approaches to predict stress-strain curves of frozen soil-rock mixtures. "
+            },
+            {
+              "text": "International Journal of Geomechanics, 25"
+            },
+            {
+              "text": "(10), 04025229."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1061/IJGNAI.GMENG-10984"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Wang, Z., Wang, Y., Hou, Y., Wang, X., Chen, Y., & Kong, Y. (2025). 3D laser scanning combined with BIM model for construction quality inspection of large-span steel structures—A case study of the dome steel structure in Zhangjiawan Depot Comprehensive Utilization Project. In D. Bassir (Ed.), Smart manufacturing, structural health monitoring and digital twins (pp. 122—131). IOS Press. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Wang, Z., Wang, Y., Hou, Y., Wang, X., Chen, Y., & "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": " (2025). 3D laser scanning combined with BIM model for construction quality inspection of large-span steel structures—A case study of the dome steel structure in Zhangjiawan Depot Comprehensive Utilization Project. In D. Bassir (Ed.), "
+            },
+            {
+              "text": "Smart manufacturing, structural health monitoring and digital twins"
+            },
+            {
+              "text": " (pp. 122—131). IOS Press."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.3233/ATDE251181"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Qi, Z., Li, Z., Li, L., Kong, Y., He, Z., & Zhou, Y. (2024). Study on the tensile characteristics of Brazilian split in remolded loess based on resistivity and DIC techniques. Environmental Earth Sciences, 83, 377. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Qi, Z., Li, Z., Li, L., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", He, Z., & Zhou, Y. (2024). Study on the tensile characteristics of Brazilian split in remolded loess based on resistivity and DIC techniques. "
+            },
+            {
+              "text": "Environmental Earth Sciences, 83"
+            },
+            {
+              "text": ", 377."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.1007/s12665-024-11690-3"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Li, Z., Kong, Y., Fu, L., Zhou, Y., Qian, Z., & Hu, R. (2021). Model test study on deformation characteristics of a fissured expansive soil slope subjected to loading and irrigation. Applied Sciences, 11(22), 10891. DOI"
+          ],
+          "rich": [
+            {
+              "text": "Li, Z., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Fu, L., Zhou, Y., Qian, Z., & Hu, R. (2021). Model test study on deformation characteristics of a fissured expansive soil slope subjected to loading and irrigation. "
+            },
+            {
+              "text": "Applied Sciences, 11"
+            },
+            {
+              "text": "(22), 10891."
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.3390/app112210891"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Tang, C., Wang, X., Wang, Y., & Chen, Y. (2025). Dynamic stress prediction during unloading of a steel dome using an LSTM–seasonal differencing enhanced model. Bulletin of Surveying and Mapping, (S1), 104–109. (in Chinese) DOI"
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Tang, C., Wang, X., Wang, Y., & Chen, Y. (2025). Dynamic stress prediction during unloading of a steel dome using an LSTM–seasonal differencing enhanced model. "
+            },
+            {
+              "text": "Bulletin of Surveying and Mapping"
+            },
+            {
+              "text": ", (S1), 104–109. (in Chinese)"
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.13474/j.cnki.11-2246.2025.S121"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Tang, C., et al. (2025). Deep learning-based recognition of water leakage defects in tunnel cross-sectional scanning grayscale images. 10th Conference on Rail Transit Surveying and Investigation Technology, March 31, 2025, Beijing. (in Chinese)"
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Tang, C., et al. (2025). Deep learning-based recognition of water leakage defects in tunnel cross-sectional scanning grayscale images. 10th Conference on Rail Transit Surveying and Investigation Technology, March 31, 2025, Beijing. "
+            },
+            {
+              "text": "(in Chinese)"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Sun, K., Li, Z., Kong, Y., Zhou, Y., & Wang, S. (2023). Study of dynamic elastic modulus and cumulative plastic deformation in frozen soil-rock mixtures under uniaxial cyclic loading. Journal of Glaciology and Geocryology, 45(6), 1730–1743. (in Chinese) DOI"
+          ],
+          "rich": [
+            {
+              "text": "Sun, K., Li, Z., "
+            },
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Zhou, Y., & Wang, S. (2023). "
+            },
+            {
+              "text": "Study of dynamic elastic modulus and cumulative plastic deformation in frozen soil-rock mixtures under uniaxial cyclic loading. "
+            },
+            {
+              "text": "Journal of Glaciology and Geocryology, 45"
+            },
+            {
+              "text": "(6), 1730–1743. (in Chinese)"
+            },
+            {
+              "text": " DOI",
+              "url": "https://doi.org/10.7522/j.issn.1000-0240.2023.0131"
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "kind": "subheading",
+          "title": "Completed Manuscripts",
+          "date": "",
+          "paragraphs": []
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R. (2026). A Single Image Is All You Need: A Knowledge-Guided Multimodal AI Framework for Geological Hazard Investigation. [Under review; journal: Advanced Engineering Informatics]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y"
+            },
+            {
+              "text": "., Li, Z., Li, L., Wang, S., & Hu, R. (2026). "
+            },
+            {
+              "text": "A Single Image Is All You Need: A Knowledge-Guided Multimodal AI Framework for Geological Hazard Investigation"
+            },
+            {
+              "text": ". [Under review; journal: Advanced Engineering Informatics]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., & Li, Z. (2026). Where are expansive soils distributed in China? Evidence from digital soil mapping. [Under review; target journal: Engineering Geology]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", & Li, Z. (2026). "
+            },
+            {
+              "text": "Where are expansive soils distributed in China? Evidence from digital soil mapping"
+            },
+            {
+              "text": ". ["
+            },
+            {
+              "text": "Under review"
+            },
+            {
+              "text": "; target journal: Engineering Geology]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Tang, C., Wang, Y., Li, Z., & Xu, Y. (2026). Image enhancement for tunnel lining surface defect recognition: A conditional diffusion-based image inpainting approach for structural occlusion removal. [Under review; target journal: Engineering Applications of Artificial Intelligence]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Tang, C., Wang, Y., Li, Z., & Xu, Y. (2026). "
+            },
+            {
+              "text": "Image enhancement for tunnel lining surface defect recognition: A conditional diffusion-based image inpainting approach for structural occlusion removal"
+            },
+            {
+              "text": ". ["
+            },
+            {
+              "text": "Under review"
+            },
+            {
+              "text": "; target journal: Engineering Applications of Artificial Intelligence]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). From sparse, asynchronous GNSS observations to continuous three-dimensional displacement fields: Multi-horizon spatiotemporal prediction for open-pit mine slopes. [Manuscript prepared; target journal: Landslides]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). "
+            },
+            {
+              "text": "From sparse, asynchronous GNSS observations to continuous three-dimensional displacement fields: Multi-horizon spatiotemporal prediction for open-pit mine slopes"
+            },
+            {
+              "text": ". [Manuscript prepared; target journal: Landslides]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., He, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). Atomistic mechanisms underlying structural hysteresis in expansive soils during wetting–drying: Evidence from molecular dynamics simulations of montmorillonite. [Manuscript prepared; target journal: Engineering Geology]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y."
+            },
+            {
+              "text": ", Li, Z., He, Z., Li, L., Wang, S., Hu, F., & Hu, R. (2026). "
+            },
+            {
+              "text": "Atomistic mechanisms underlying structural hysteresis in expansive soils during wetting–drying: Evidence from molecular dynamics simulations of montmorillonite"
+            },
+            {
+              "text": ". [Manuscript prepared; target journal: Engineering Geology]."
+            }
+          ],
+          "kind": "citation"
+        },
+        {
+          "title": "",
+          "date": "",
+          "paragraphs": [
+            "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R (2026). Ontology-guided KG-RAG for fissured expansive-soil landslides: From knowledge organization to engineering application. [Manuscript prepared; target journal: Engineering Geology]."
+          ],
+          "rich": [
+            {
+              "text": "Kong, Y.,"
+            },
+            {
+              "text": " Li, Z., Li, L., Wang, S., & Hu, R (2026). Ontology-guided KG-RAG for fissured expansive-soil landslides: From knowledge organization to engineering application. [Manuscript prepared; target journal: Engineering Geology]."
+            }
+          ],
+          "kind": "citation"
         }
       ]
     },
@@ -156,74 +577,75 @@
       "title": "Selected Awards",
       "entries": [
         {
-          "date": "2025",
-          "title": "Outstanding Paper Award",
+          "title": "",
+          "date": "",
           "paragraphs": [
-            "10th Conference on Rail Transit Surveying and Exploration Technology."
+            "• Outstanding Paper Award, 10th Conference on Rail Transit Surveying and Investigation Technology (2025)."
           ]
         },
         {
+          "title": "",
           "date": "",
-          "title": "Scholarships",
           "paragraphs": [
-            "National Scholarship; first-class academic scholarships on seven occasions."
+            "• National Scholarship; First-Class Academic Scholarship (seven awards)."
           ]
         },
         {
+          "title": "",
           "date": "",
-          "title": "Mathematical Modeling Competitions",
           "paragraphs": [
-            "Second prize in the China Undergraduate Mathematical Contest in Modeling; Honorable Mention in the Mathematical Contest in Modeling (MCM)."
+            "• Second Prize, China Undergraduate Mathematical Contest in Modeling; Honorable Mention, Mathematical Contest in Modeling (MCM)."
           ]
         }
       ]
     },
     {
       "id": "methods",
-      "title": "Research Methods and Tools",
+      "title": "Methods and Tools",
       "entries": [
         {
+          "title": "AI-Augmented Development",
           "date": "",
-          "title": "AI and Computing",
           "paragraphs": [
-            "Python, C++, MATLAB; graph neural networks, spatiotemporal learning, deep learning and computer vision, LLM/KG-RAG, physically constrained and probabilistic modeling."
+            "Codex, ChatGPT, and other AI development tools; AI-assisted programming, research workflow automation, data engineering, and scientific computing; Python, C++, MATLAB, GIS, and numerical simulation software."
           ]
         },
         {
+          "title": "AI for Science",
           "date": "",
-          "title": "Geotechnical Experiments and Mechanisms",
           "paragraphs": [
-            "Basic soil and rock tests, direct shear and dynamic triaxial tests, slope model testing; XRD, SEM/EDX, MIP, BET, DIC, resistivity monitoring and molecular simulation."
+            "AI research workflow design and automation; research agents and multimodal large models; knowledge augmentation and intelligent reasoning; computer vision and generative AI; spatiotemporal intelligence and geospatial machine learning; physics-informed machine learning; digital soil mapping."
           ]
         },
         {
+          "title": "Geotechnical Engineering",
           "date": "",
-          "title": "Field and Engineering",
           "paragraphs": [
-            "Geohazard field investigation; tunnel laser scanning and point-cloud/image processing; structural health monitoring; ArcGIS, CAD, GeoStudio/ANSYS."
+            "Engineering geological investigation, geohazard assessment, slope stability analysis, geotechnical laboratory testing, microstructural characterisation (XRD, SEM/EDS, MIP, BET), three-dimensional laser scanning, and engineering monitoring (GNSS, DIC)."
           ]
         }
       ]
     },
     {
       "id": "communication",
-      "title": "Science Communication and Languages",
+      "title": "Science Communication",
       "entries": [
         {
+          "title": "",
           "date": "",
-          "title": "Science Communication",
           "paragraphs": [
-            "Wrote 20 engineering-related popular-science articles for official Chinese Academy of Sciences platforms, with more than 100,000 total reads."
+            "• Authored 20 popular-science articles on engineering geology for official Chinese Academy of Sciences platforms, attracting more than 200,000 cumulative reads."
           ]
         },
         {
+          "title": "",
           "date": "",
-          "title": "Languages",
           "paragraphs": [
-            "Chinese: native. English: able to conduct academic reading, writing and communication."
+            "Languages: Chinese (native); English: IELTS 7.5 (Listening 8.5 / Reading 7.5 / Writing 7.0 / Speaking 6.5)."
           ]
         }
       ]
     }
-  ]
+  ],
+  "source": "Youxing_Kong_Academic_CV.docx"
 }

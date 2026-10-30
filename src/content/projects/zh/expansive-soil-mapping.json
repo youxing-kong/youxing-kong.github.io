@@ -1,0 +1,109 @@
+{
+  "lang": "zh",
+  "slug": "expansive-soil-mapping",
+  "program": 1,
+  "status": "进行中研究",
+  "tags": [
+    "区域制图",
+    "环境关联",
+    "空间不确定性"
+  ],
+  "theme": "olive",
+  "order": 5,
+  "title": "中国膨胀土分布与环境特征",
+  "subtitle": "地质环境与空间识别",
+  "shortTitle": "中国膨胀土分布与环境特征",
+  "summary": "既有中国膨胀土全国分布图多以大致范围表达，主要分布区内部差异及外围边界仍需在统一尺度下细化。研究整合已知分布记录和多源环境信息，结合空间验证、重复抽样与模型集成开展全国制图，并与既有分布边界和文献研究热度进行比较。结果呈现中东部主体分布带、西南与南方区域集群及其他地区的局部斑块，为识别调查不足区域和开展补充取样提供依据。",
+  "question": "既有中国膨胀土全国分布图多以大致范围表达，主要分布区内部差异及外围边界仍需在统一尺度下细化。",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "科学问题与方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "既有中国膨胀土全国分布图多以大致范围表达，主要分布区内部差异及外围边界仍需在统一尺度下细化。研究整合已知分布记录和多源环境信息，结合空间验证、重复抽样与模型集成开展全国制图，并与既有分布边界和文献研究热度进行比较。结果呈现中东部主体分布带、西南与南方区域集群及其他地区的局部斑块，为识别调查不足区域和开展补充取样提供依据。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-1.png",
+            "alt": "全国膨胀土数字制图流程",
+            "label": "图1 全国膨胀土数字制图流程",
+            "caption": "统一空间数据库连接环境变量、模型集成和空间验证，重复抽样用于考察结果对样本组合变化的响应。",
+            "width": 2642,
+            "height": 2246
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "结果",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-2.png",
+            "alt": "分布潜势 纳入频率与共同筛选范围",
+            "label": "图2 分布潜势 纳入频率与共同筛选范围",
+            "caption": "三类地图分别表达相对分布潜势、重复抽样的纳入频率和共同条件筛选范围，呈现连续主体区与区域性斑块。",
+            "width": 2642,
+            "height": 763
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-3.png",
+            "alt": "中国膨胀土分布与已知分布点",
+            "label": "图3 中国膨胀土分布与已知分布点",
+            "caption": "红色为分布潜势与空间分块重复抽样稳定性共同筛选的膨胀土分布范围，圆点为505个已知分布点。地形与河流背景显示主体分布带和局部斑块的空间位置。",
+            "width": 2637,
+            "height": 2062
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "工程认识",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "将预测分布与既有边界和文献研究热度对照，可以识别分布认识较一致的区域及资料相对不足的区域，为后续地层、矿物组成和工程性质调查确定重点。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-4.png",
+            "alt": "本研究分布与既有边界及研究热度比较",
+            "label": "图4 本研究分布与既有边界及研究热度比较",
+            "caption": "深蓝轮廓为本研究分布，棕色斜线为既有研究边界，红色深浅表示文献研究热度。东北与西北的部分预测分布区相关研究较少，可作为补充调查的关注区域。",
+            "width": 2637,
+            "height": 1928
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/02-expansive-soil-mapping.webp",
+    "alt": "中国膨胀土分布与环境特征",
+    "caption": ""
+  },
+  "relatedPapers": [
+    {
+      "title": "Where are expansive soils distributed in China? Evidence from digital soil mapping",
+      "authors": "Kong, Y., & Li, Z.",
+      "year": 2026,
+      "venue": "",
+      "status": "under-review",
+      "statusLabel": "审稿中",
+      "url": null,
+      "doi": null
+    }
+  ]
+}

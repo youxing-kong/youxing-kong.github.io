@@ -1,44 +1,120 @@
 {
-  "title": "面向地质灾害知识组织与科学推理的本体引导 KG-RAG",
-  "subtitle": "连接科学文献、结构化知识与推理",
-  "question": "结构化领域知识能否提高人工智能在地质灾害研究中的可靠性与科学推理能力？",
-  "context": "领域文献涵盖岩土材料、胀缩行为、环境触发、水文响应、裂隙演化、水力耦合失稳、监测、预测、防治与风险管理。",
-  "approach": [
-    "科学文献",
-    "领域本体",
-    "知识图谱",
-    "检索",
-    "大语言模型推理"
-  ],
-  "progress": "持续组织领域知识与来源证据，支持知识检索和科学推理。",
-  "direction": "科学人工智能能否联合推理数据、物理规律与领域知识？",
-  "next": "进一步改善证据可追溯性，以及生成结论与检索文献证据的对应关系。",
-  "update": "2026 年 8 月 26 日汇报介绍了基于 536 篇全文文献的本体引导知识框架，使用 170 道领域问题与膨胀土滑坡案例进行评估。这些内容属于阶段性研究汇报，不表示论文已发表。",
-  "outputs": "本体、知识组织与评价工作持续推进。公开论文、代码和数据待补充。",
   "lang": "zh",
   "slug": "knowledge-augmented-geohazards",
-  "order": 3,
-  "shortTitle": "Ontology-guided KG-RAG",
   "program": 2,
   "status": "进行中研究",
-  "hero": {
-    "src": "",
-    "alt": "",
+  "tags": [
+    "领域知识",
+    "证据检索",
+    "可追溯推理"
+  ],
+  "theme": "sage",
+  "order": 3,
+  "title": "本体引导的膨胀土滑坡知识组织与工程复用",
+  "subtitle": "知识与科学推理",
+  "shortTitle": "本体引导的膨胀土滑坡知识组织与工程复用",
+  "summary": "膨胀土滑坡的机制分析与工程处置需要关联材料、水文、裂隙、监测和治理等分散知识。研究基于536篇文献，通过主题分析与工程语义重组构建六维领域本体，以本体约束实体关系抽取、知识融合和证据绑定，并结合本体路由、图关系及文本向量检索建立KG-RAG框架。通过标准化领域问答和安徽淠史杭灌区刘岗电灌站2号滑坡案例，检验既有知识在新工程情境中的可追溯组织与复用。",
+  "question": "膨胀土滑坡的机制分析与工程处置需要关联材料、水文、裂隙、监测和治理等分散知识。",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "科学问题与方法",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "膨胀土滑坡的机制分析与工程处置需要关联材料、水文、裂隙、监测和治理等分散知识。研究基于536篇文献，通过主题分析与工程语义重组构建六维领域本体，以本体约束实体关系抽取、知识融合和证据绑定，并结合本体路由、图关系及文本向量检索建立KG-RAG框架。通过标准化领域问答和安徽淠史杭灌区刘岗电灌站2号滑坡案例，检验既有知识在新工程情境中的可追溯组织与复用。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-1.png",
+            "alt": "本体引导的知识组织与检索框架",
+            "label": "图1 本体引导的知识组织与检索框架",
+            "caption": "文献语料经主题分析、本体设计和知识抽取形成图谱，图关系与文本证据共同支持检索、生成及来源追溯。",
+            "width": 1424,
+            "height": 1660
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "结果",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-2.png",
+            "alt": "六维领域本体与工程知识联系",
+            "label": "图2 六维领域本体与工程知识联系",
+            "caption": "六维本体以材料基础、环境水文、裂隙与水–力失稳、监测数据、评价预测和风险治理组织知识，并通过关键实体和关系连接不同工程过程。",
+            "width": 1355,
+            "height": 888
+          }
+        },
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "领域问答比较知识调用效果，工程案例进一步检验知识在新现场条件下的组合与复用，形成从事实输入到机制解释和工程知识支持的验证链条。"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "工程案例",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-3.png",
+            "alt": "淠史杭灌区2号滑坡工程地质条件及案例输入",
+            "label": "图3 淠史杭灌区2号滑坡工程地质条件及案例输入",
+            "caption": "案例位于安徽淠史杭灌区刘岗电灌站，完整面板展示位置、滑坡前后影像、水文边界、钻孔含水率与干密度变化及滑面特征，为知识检索提供现场输入。",
+            "width": 1075,
+            "height": 1373
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "工程认识",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "案例将坡顶灌溉和降雨补给、裂隙优势入渗、坡脚渠道湿化与局部软化联系起来，形成弱带变形集中及渐进滑动的机制解释，并据此关联监测、评价与治理知识。"
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-3-figure-4.png",
+            "alt": "本体引导的案例机制诊断与工程知识支持",
+            "label": "图4 本体引导的案例机制诊断与工程知识支持",
+            "caption": "现场证据经本体路由和混合检索，形成材料、水文与失稳过程的机制诊断，并关联监测、评价和治理知识。钻孔10–12 m异常提示可能存在的非均质弱带。",
+            "width": 3573,
+            "height": 3795
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/06-ontology-knowledge.webp",
+    "alt": "本体引导的膨胀土滑坡知识组织与工程复用",
     "caption": ""
   },
-  "methodFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "resultFigure": {
-    "src": "",
-    "alt": "",
-    "caption": ""
-  },
-  "links": {
-    "paper": "",
-    "code": "",
-    "data": ""
-  }
+  "relatedPapers": [
+    {
+      "title": "Ontology-guided KG-RAG for fissured expansive-soil landslides: From knowledge organization to engineering application",
+      "authors": "Kong, Y., Li, Z., Li, L., Wang, S., & Hu, R",
+      "year": 2026,
+      "venue": "",
+      "status": "manuscript-prepared",
+      "statusLabel": "手稿已完成",
+      "url": null,
+      "doi": null
+    }
+  ]
 }

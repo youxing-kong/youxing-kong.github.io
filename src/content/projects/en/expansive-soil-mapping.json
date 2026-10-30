@@ -1,0 +1,109 @@
+{
+  "lang": "en",
+  "slug": "expansive-soil-mapping",
+  "program": 1,
+  "status": "Ongoing research",
+  "tags": [
+    "Regional mapping",
+    "Environmental associations",
+    "Spatial uncertainty"
+  ],
+  "theme": "olive",
+  "order": 5,
+  "title": "Distribution and environmental characteristics of expansive soils in China",
+  "subtitle": "Geoenvironment & spatial mapping",
+  "shortTitle": "Distribution and environmental characteristics of expansive soils in China",
+  "summary": "Existing national maps of expansive soils in China generally depict approximate extents, and internal differences within major distribution areas and their outer boundaries still require refinement at a consistent scale. This study integrates known occurrence records and multisource environmental information, combines spatial validation, repeated sampling, and model ensembles for national mapping, and compares the results with existing distribution boundaries and the intensity of research in the literature. The results show a principal distribution belt in central and eastern China, regional clusters in southwestern and southern China, and localized patches elsewhere, providing a basis for identifying undersurveyed areas and planning supplementary sampling.",
+  "question": "Existing national maps of expansive soils in China generally depict approximate extents, and internal differences within major distribution areas and their outer boundaries still require refinement at a consistent scale.",
+  "approvedSections": [
+    {
+      "id": "section-1",
+      "title": "Research question and methods",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": true,
+          "text": "Existing national maps of expansive soils in China generally depict approximate extents, and internal differences within major distribution areas and their outer boundaries still require refinement at a consistent scale. This study integrates known occurrence records and multisource environmental information, combines spatial validation, repeated sampling, and model ensembles for national mapping, and compares the results with existing distribution boundaries and the intensity of research in the literature. The results show a principal distribution belt in central and eastern China, regional clusters in southwestern and southern China, and localized patches elsewhere, providing a basis for identifying undersurveyed areas and planning supplementary sampling."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-1.png",
+            "alt": "Workflow for national digital mapping of expansive soils",
+            "label": "Figure 1 Workflow for national digital mapping of expansive soils",
+            "caption": "A unified spatial database connects environmental variables, model ensembles, and spatial validation. Repeated sampling is used to examine how results respond to changes in sample composition.",
+            "width": 2642,
+            "height": 2246
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Results",
+      "blocks": [
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-2.png",
+            "alt": "Distribution potential, inclusion frequency, and jointly screened extent",
+            "label": "Figure 2 Distribution potential, inclusion frequency, and jointly screened extent",
+            "caption": "The three map types respectively show relative distribution potential, inclusion frequency across repeated sampling, and the extent screened using joint criteria, revealing a continuous main distribution area and regional patches.",
+            "width": 2642,
+            "height": 763
+          }
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-3.png",
+            "alt": "Distribution of expansive soils in China and known occurrence locations",
+            "label": "Figure 3 Distribution of expansive soils in China and known occurrence locations",
+            "caption": "Red indicates the expansive-soil distribution extent jointly screened by distribution potential and stability across spatially blocked repeated sampling. Dots represent 505 known occurrence locations. The terrain and river background shows the spatial positions of the main distribution belt and localized patches.",
+            "width": 2637,
+            "height": 2062
+          }
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Engineering insights",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "intro": false,
+          "text": "Comparing the predicted distribution with existing boundaries and the intensity of research in the literature identifies areas where knowledge of the distribution is relatively consistent and areas where information is relatively limited, helping prioritize subsequent investigations of stratigraphy, mineral composition, and engineering properties."
+        },
+        {
+          "type": "figure",
+          "media": {
+            "src": "images/projects/approved-20261030/project-5-figure-4.png",
+            "alt": "Comparison of the distribution mapped in this study with existing boundaries and research intensity",
+            "label": "Figure 4 Comparison of the distribution mapped in this study with existing boundaries and research intensity",
+            "caption": "Dark blue outlines indicate the distribution mapped in this study, brown hatching represents boundaries from previous studies, and shades of red indicate the intensity of research in the literature. Some predicted distribution areas in northeastern and northwestern China have received limited research attention and may warrant supplementary investigation.",
+            "width": 2637,
+            "height": 1928
+          }
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "src": "images/projects/covers/02-expansive-soil-mapping.webp",
+    "alt": "Distribution and environmental characteristics of expansive soils in China",
+    "caption": ""
+  },
+  "relatedPapers": [
+    {
+      "title": "Where are expansive soils distributed in China? Evidence from digital soil mapping",
+      "authors": "Kong, Y., & Li, Z.",
+      "year": 2026,
+      "venue": "",
+      "status": "under-review",
+      "statusLabel": "Under review",
+      "url": null,
+      "doi": null
+    }
+  ]
+}
