@@ -1,7 +1,7 @@
 # Youxing Kong · Academic Research Portfolio
 
-Public website: https://shiningnick.github.io/
-Chinese: https://shiningnick.github.io/zh/
+Public website: https://youxing-kong.github.io/
+Chinese: https://youxing-kong.github.io/zh/
 
 This repository contains the maintained Astro source on `main` and the published static website on `gh-pages`.
 
