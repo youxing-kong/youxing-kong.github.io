@@ -44,7 +44,8 @@
           "date": "Jul 2024–Present",
           "paragraphs": [
             "• Conduct safety monitoring, intelligent inspection, and research for urban infrastructure, including mobile scanning and surface defect inspection of metro tunnels, structural monitoring, and municipal utility surveys.",
-            "• Apply image recognition, generative image processing, and time-series forecasting to engineering monitoring data; contribute to research papers, technical reports, and AI-related research proposals."
+            "• Apply image recognition, generative image processing, and time-series forecasting to engineering monitoring data; contribute to research papers, technical reports, and AI-related research proposals.",
+            "• Contributed to the development of Jingxin Kunling (精心·坤灵), the engineering site investigation sector’s first domain-specific large language model in China."
           ]
         },
         {
@@ -131,10 +132,17 @@
           ]
         },
         {
-          "title": "Beijing Metro — Fire-Door Inspection and Surveying of Tunnel Cross-Passages",
+          "title": "Beijing Urban Construction — Jingxin Kunling LLM Development",
+          "date": "Sep 2024–Present",
+          "paragraphs": [
+            "• Contribute to the development of a domain-specific large language model for engineering site investigation and geotechnical engineering. Design, develop and test AI agent features."
+          ]
+        },
+        {
+          "title": "Beijing Metro | Fire Door Condition Inspection and Surveying in Tunnel Cross-Passages",
           "date": "Apr 2025",
           "paragraphs": [
-            "• Participated in fire-door inspection, engineering surveying, and condition data collection for tunnel cross-passages during maintenance windows and night shifts, gaining experience in field coordination and inspection in complex underground environments."
+            "• Participated in on-site condition inspections and surveys of fire doors in tunnel cross-passages, documenting their locations and condition to support reviews of existing fire protection facilities."
           ]
         }
       ]
